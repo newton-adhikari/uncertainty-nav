@@ -10,5 +10,8 @@
   Arena: 10×10 m, 8 static box/cylinder obstacles.
   TurtleBot3 spawned at origin facing +X.
 -->
-<sdf>
+
+<sdf version="1.6">
+    <world name="env_a">
+    </world>
 </sf>
