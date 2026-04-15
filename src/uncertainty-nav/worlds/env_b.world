@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!--
+  Environment B — TurtleBot3 Waffle Pi test world (NEVER seen during training).
+-->
+
+<sdf version="1.6">
+    <world name="env_a">
+    </world>
+</sf>
