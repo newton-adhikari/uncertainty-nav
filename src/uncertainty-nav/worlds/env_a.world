@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!--
+  Environment A — TurtleBot3 Waffle Pi training world.
+
+  Sensor: LDS-01 laser (real TurtleBot3 spec)
+    - 360 beams, 360° FoV, range 0.12–3.5 m
+    - Gaussian noise std = 0.01 m (moderate, matches real LDS-01)
+    - No dynamic obstacles, no occlusion forcing
+
+  Arena: 10×10 m, 8 static box/cylinder obstacles.
+  TurtleBot3 spawned at origin facing +X.
+-->
+<sdf>
+</sf>
