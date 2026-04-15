@@ -1,0 +1,3 @@
+This project presents a robust robot navigation framework that leverages an ensemble of reinforcement learning policies to estimate uncertainty and improve safety in real-world deployment.
+
+We train 5 independent navigation policies and use their disagreement as a proxy for epistemic uncertainty. When the ensemble disagrees, the system identifies unfamiliar or out-of-distribution environments and dynamically adapts behavior
