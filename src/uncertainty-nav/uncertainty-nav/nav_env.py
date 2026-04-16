@@ -55,6 +55,89 @@ ENV_A = EnvConfig(
     dropout_prob=0.0,
 )
 
+ENV_B = EnvConfig(
+    map_size=12.0,                    
+    laser_noise_std=0.12,             
+    occlusion_prob=0.20,              
+    fov_deg=120.0,                    
+    n_static_obstacles=10,            # moderate clutter
+    dropout_prob=0.08,                # occasional dropout
+    max_steps=600,                    # enough steps for larger map
+    
+    # Interior walls create corridors and perceptual aliasing
+    interior_walls=(
+        (-2.0, -4.0, -2.0, 2.0),     # vertical wall left
+        (2.0, -2.0, 2.0, 4.0),       # vertical wall right
+    ),
+    n_dynamic_obstacles=2,            # 2 moving obstacles
+    dynamic_speed=0.10,               # slower dynamics
+)
+
+# --- Distribution shift spectrum (Pillar 2) ---
+
+# Env C: Sensor-only shift — Env A layout + Env B sensor degradation
+# Isolates the effect of sensor noise/occlusion from layout change
+ENV_C = EnvConfig(
+    map_size=10.0,                    # same as Env A
+    laser_noise_std=0.12,             # Env B noise
+    occlusion_prob=0.20,              # Env B occlusion
+    fov_deg=120.0,                    # Env B FoV
+    n_static_obstacles=8,             # same as Env A
+    dropout_prob=0.08,                # Env B dropout
+    max_steps=500,                    # same as Env A
+    interior_walls=(),                # no interior walls (Env A)
+    n_dynamic_obstacles=0,            # no dynamic obstacles (Env A)
+)
+
+# Env D: Layout-only shift — Env B layout + Env A sensor parameters
+# Isolates the effect of structural novelty from sensor degradation
+ENV_D = EnvConfig(
+    map_size=12.0,                    # Env B size
+    laser_noise_std=0.05,             # Env A noise
+    occlusion_prob=0.05,              # Env A occlusion
+    fov_deg=180.0,                    # Env A FoV
+    n_static_obstacles=10,            # Env B obstacles
+    dropout_prob=0.0,                 # no dropout (Env A)
+    max_steps=600,                    # Env B steps
+    interior_walls=(                  # Env B walls
+        (-2.0, -4.0, -2.0, 2.0),
+        (2.0, -2.0, 2.0, 4.0),
+    ),
+    n_dynamic_obstacles=2,            # Env B dynamics
+    dynamic_speed=0.10,
+)
+
 class PartialObsNavEnv(gym.Env):
     def __init__(self, config: EnvConfig = ENV_A, seed: Optional[int] = None):
         super().__init__()
+        self.cfg = config
+        self.rng = np.random.default_rng(seed)
+
+        obs_dim = config.n_laser_beams + 3
+        self.observation_space = spaces.Box(
+            low=-1.0, high=1.0, shape=(obs_dim,), dtype=np.float32
+        )
+        self.action_space = spaces.Box(
+            low=-1.0, high=1.0, shape=(2,), dtype=np.float32
+        )
+
+        self._obstacles = []
+        self._dynamic_obstacles = []  # list of (pos, velocity) pairs
+        self._step = 0
+        self._robot_pose = np.zeros(3)
+        self._goal = np.zeros(2)
+        self._prev_dist_to_goal = 0.0
+        self._episode_path_length = 0.0
+        self._optimal_path_length = 0.0
+
+        # Parse interior walls into segments
+        self._interior_walls = []
+        for wall in config.interior_walls:
+            self._interior_walls.append(
+                (np.array([wall[0], wall[1]]), np.array([wall[2], wall[3]]))
+            )
+
+        # Precompute beam angles (relative to robot heading = 0)
+        self._beam_angles_rel = np.linspace(
+            0, 2 * np.pi, config.n_laser_beams, endpoint=False
+        )
