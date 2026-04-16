@@ -3,6 +3,8 @@
 # RecurrentPolicy
 # LargeMLPPolicy
 
+# The LargeMLPPolicy ablation is very important
+# this answers ::, Is improvement from uncertainty or just more parameters
 
 import torch
 import torch.nn as nn
@@ -123,7 +125,7 @@ class LargeMLPPolicy(nn.Module):
         dist = torch.distributions.Normal(mean, log_std.exp())
         raw = dist.rsample()
         action = torch.tanh(raw)
-        
+
         # Tanh-corrected log_prob
         log_prob = (dist.log_prob(raw) - torch.log(1 - action.pow(2) + 1e-6)).sum(-1)
         return action, log_prob
