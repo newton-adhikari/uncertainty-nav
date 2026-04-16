@@ -1,0 +1,14 @@
+# Training config: Large MLP ablation (same params as ensemble, no uncertainty)
+policy_type: "large_mlp"
+env: "A"
+n_members: 5   # used only to compute matching hidden size
+hidden: 256
+lr: 3.0e-4
+total_steps: 2_000_000
+n_steps: 2048
+clip_eps: 0.2
+ppo_epochs: 10
+gamma: 0.99
+lam: 0.95
+log_dir: "runs/large_mlp"
+output_dir: "checkpoints"

@@ -1,0 +1,13 @@
+# Training config: GRU recurrent policy baseline
+policy_type: "gru"
+env: "A"
+hidden: 256
+lr: 3.0e-4
+total_steps: 2_000_000
+n_steps: 2048
+clip_eps: 0.2
+ppo_epochs: 10
+gamma: 0.99
+lam: 0.95
+log_dir: "runs/gru"
+output_dir: "checkpoints"
