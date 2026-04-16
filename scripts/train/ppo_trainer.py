@@ -1,4 +1,9 @@
-# PPO trainer for PolicyNetwork, VanillaMLP, RecurrentPolicy, LargeMLPPolicy.
+"""
+PPO trainer for PolicyNetwork, VanillaMLP, RecurrentPolicy, LargeMLPPolicy.
+
+Ensemble members are trained as independent PolicyNetwork instances,
+each with a different seed. Assembly into DeepEnsemble happens at eval time.
+"""
 
 import os
 if os.environ.get("PARALLEL_TRAIN"):
