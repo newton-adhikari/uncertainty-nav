@@ -30,7 +30,28 @@ def fig1_ood_detection():
     # import both envs
     from uncertainty_nav.nav_env import ENV_A, ENV_B
 
+def fig2_calibration():
+    pass
+
+def fig3_failure_prediction():
+    pass
+
+def fig4_ensemble_size():
+    pass
+
+
+def fig5_uncertainty_timeline():
+    pass
+
+def fig6_method_comparison():
+    pass
 
 
 if __name__ == "__main__":
     fig1_ood_detection()
+    fig2_calibration()
+    fig3_failure_prediction()
+    fig4_ensemble_size()
+    fig5_uncertainty_timeline()
+    fig6_method_comparison()
+    print(f"\nAll plots saved to {PLOTS_DIR}/")
