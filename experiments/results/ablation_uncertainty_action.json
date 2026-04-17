@@ -1,0 +1,29 @@
+{
+  "uncertainty_driven": {
+    "success_rate": 0.366,
+    "success_rate_std": 0.0553534100123922,
+    "success_rate_ci95": [
+      0.326,
+      0.41
+    ],
+    "collision_rate": 0.634,
+    "mean_spl": 0.3659798380688426,
+    "mean_uncertainty": 0.4605230272142895,
+    "cautious_ratio": 0.8164614994524156,
+    "n_episodes": 500
+  },
+  "mean_only": {
+    "success_rate": 0.35,
+    "success_rate_std": 0.03898717737923585,
+    "success_rate_ci95": [
+      0.31,
+      0.392
+    ],
+    "collision_rate": 0.65,
+    "mean_spl": 0.34981931878216393,
+    "mean_uncertainty": 0.4734305531741388,
+    "cautious_ratio": 0.0,
+    "n_episodes": 500
+  },
+  "mann_whitney_p_value": 0.597987512286903
+}

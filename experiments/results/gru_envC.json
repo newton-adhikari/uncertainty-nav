@@ -1,0 +1,20 @@
+{
+  "policy": "gru",
+  "env": "C",
+  "n_episodes": 200,
+  "n_seeds": 5,
+  "success_rate": 0.74,
+  "success_rate_std": 0.03741657386773941,
+  "collision_rate": 0.26,
+  "collision_rate_std": 0.03741657386773942,
+  "timeout_rate": 0.0,
+  "timeout_rate_std": 0.0,
+  "mean_spl": 0.7364843903214272,
+  "mean_spl_std": 0.036989518505355236,
+  "mean_reward": 67.76200376311664,
+  "mean_path_length": 3.5821519967805786,
+  "mean_steps": 140.62,
+  "mean_uncertainty": 0.0,
+  "std_uncertainty": 0.0,
+  "mean_cautious_ratio": 0.0
+}

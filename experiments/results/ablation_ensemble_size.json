@@ -1,0 +1,67 @@
+{
+  "N=1": {
+    "success_rate": 0.33599999999999997,
+    "success_rate_std": 0.05642694391866354,
+    "success_rate_ci95": [
+      0.292,
+      0.378
+    ],
+    "collision_rate": 0.662,
+    "mean_spl": 0.3350147723066109,
+    "mean_uncertainty": 0.0,
+    "cautious_ratio": 0.0,
+    "n_episodes": 500
+  },
+  "N=2": {
+    "success_rate": 0.38000000000000006,
+    "success_rate_std": 0.030331501776206204,
+    "success_rate_ci95": [
+      0.34,
+      0.424
+    ],
+    "collision_rate": 0.62,
+    "mean_spl": 0.3799521279487852,
+    "mean_uncertainty": 0.3819737346854496,
+    "cautious_ratio": 0.508370908882753,
+    "n_episodes": 500
+  },
+  "N=3": {
+    "success_rate": 0.354,
+    "success_rate_std": 0.029393876913398145,
+    "success_rate_ci95": [
+      0.312,
+      0.396
+    ],
+    "collision_rate": 0.646,
+    "mean_spl": 0.35396196570238553,
+    "mean_uncertainty": 0.2646761866216618,
+    "cautious_ratio": 0.46441302483413327,
+    "n_episodes": 500
+  },
+  "N=5": {
+    "success_rate": 0.366,
+    "success_rate_std": 0.0553534100123922,
+    "success_rate_ci95": [
+      0.326,
+      0.41
+    ],
+    "collision_rate": 0.634,
+    "mean_spl": 0.3659798380688426,
+    "mean_uncertainty": 0.4605230272142895,
+    "cautious_ratio": 0.8164614994524156,
+    "n_episodes": 500
+  },
+  "N=10": {
+    "success_rate": 0.364,
+    "success_rate_std": 0.072,
+    "success_rate_ci95": [
+      0.322,
+      0.406
+    ],
+    "collision_rate": 0.624,
+    "mean_spl": 0.36238067319305806,
+    "mean_uncertainty": 0.9686440194871937,
+    "cautious_ratio": 1.0,
+    "n_episodes": 500
+  }
+}

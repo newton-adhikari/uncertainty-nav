@@ -1,0 +1,7818 @@
+[
+  {
+    "step": 0,
+    "mean_reward": -24.766557693481445,
+    "success_rate": 0.0,
+    "collision_rate": 0.0,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 2048,
+    "mean_reward": -24.0649356842041,
+    "success_rate": 0.0,
+    "collision_rate": 0.0,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 4096,
+    "mean_reward": -25.576696395874023,
+    "success_rate": 0.0,
+    "collision_rate": 0.08333333333333333,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 6144,
+    "mean_reward": -21.870019912719727,
+    "success_rate": 0.0,
+    "collision_rate": 0.0625,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 8192,
+    "mean_reward": -20.796030044555664,
+    "success_rate": 0.0,
+    "collision_rate": 0.05,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 10240,
+    "mean_reward": -18.70940399169922,
+    "success_rate": 0.0,
+    "collision_rate": 0.08333333333333333,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 12288,
+    "mean_reward": -17.092121124267578,
+    "success_rate": 0.0,
+    "collision_rate": 0.06896551724137931,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 14336,
+    "mean_reward": -22.1319580078125,
+    "success_rate": 0.0,
+    "collision_rate": 0.09090909090909091,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 16384,
+    "mean_reward": -18.00147819519043,
+    "success_rate": 0.0,
+    "collision_rate": 0.1794871794871795,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 18432,
+    "mean_reward": -18.781408309936523,
+    "success_rate": 0.0,
+    "collision_rate": 0.24444444444444444,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 20480,
+    "mean_reward": -19.4834041595459,
+    "success_rate": 0.0,
+    "collision_rate": 0.26,
+    "mean_spl": 0.0,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 22528,
+    "mean_reward": 6.431894302368164,
+    "success_rate": 0.02,
+    "collision_rate": 0.28,
+    "mean_spl": 0.009508862942242471,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 24576,
+    "mean_reward": 4.636297702789307,
+    "success_rate": 0.04,
+    "collision_rate": 0.28,
+    "mean_spl": 0.01852499485509735,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 26624,
+    "mean_reward": -18.128154754638672,
+    "success_rate": 0.04,
+    "collision_rate": 0.3,
+    "mean_spl": 0.01852499485509735,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 28672,
+    "mean_reward": -18.52001953125,
+    "success_rate": 0.04,
+    "collision_rate": 0.34,
+    "mean_spl": 0.01852499485509735,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 30720,
+    "mean_reward": -17.79620933532715,
+    "success_rate": 0.04,
+    "collision_rate": 0.36,
+    "mean_spl": 0.01852499485509735,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 32768,
+    "mean_reward": -1.4671894311904907,
+    "success_rate": 0.06,
+    "collision_rate": 0.44,
+    "mean_spl": 0.026346766628637986,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 34816,
+    "mean_reward": 34.749385833740234,
+    "success_rate": 0.12,
+    "collision_rate": 0.44,
+    "mean_spl": 0.054241289913581736,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 36864,
+    "mean_reward": 5.522514343261719,
+    "success_rate": 0.14,
+    "collision_rate": 0.4,
+    "mean_spl": 0.061906495693270835,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 38912,
+    "mean_reward": -18.07160186767578,
+    "success_rate": 0.14,
+    "collision_rate": 0.38,
+    "mean_spl": 0.061906495693270835,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 40960,
+    "mean_reward": 17.457542419433594,
+    "success_rate": 0.18,
+    "collision_rate": 0.34,
+    "mean_spl": 0.08394244319808752,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 43008,
+    "mean_reward": 32.49615478515625,
+    "success_rate": 0.2,
+    "collision_rate": 0.32,
+    "mean_spl": 0.0933515499591783,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 45056,
+    "mean_reward": 8.725996017456055,
+    "success_rate": 0.22,
+    "collision_rate": 0.32,
+    "mean_spl": 0.10216530849016273,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 47104,
+    "mean_reward": 47.52987289428711,
+    "success_rate": 0.26,
+    "collision_rate": 0.3,
+    "mean_spl": 0.1285666669458631,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 49152,
+    "mean_reward": 10.405706405639648,
+    "success_rate": 0.28,
+    "collision_rate": 0.24,
+    "mean_spl": 0.141245907847675,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 51200,
+    "mean_reward": 27.572994232177734,
+    "success_rate": 0.32,
+    "collision_rate": 0.24,
+    "mean_spl": 0.16438862880215635,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 53248,
+    "mean_reward": 61.16469192504883,
+    "success_rate": 0.4,
+    "collision_rate": 0.16,
+    "mean_spl": 0.2228111946857501,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 55296,
+    "mean_reward": 34.45547103881836,
+    "success_rate": 0.4,
+    "collision_rate": 0.16,
+    "mean_spl": 0.22947096101811962,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 57344,
+    "mean_reward": 44.780086517333984,
+    "success_rate": 0.44,
+    "collision_rate": 0.14,
+    "mean_spl": 0.26106954725256803,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 59392,
+    "mean_reward": 48.565670013427734,
+    "success_rate": 0.5,
+    "collision_rate": 0.12,
+    "mean_spl": 0.3018698696946383,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 61440,
+    "mean_reward": 9.971403121948242,
+    "success_rate": 0.48,
+    "collision_rate": 0.1,
+    "mean_spl": 0.2921740426513712,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 63488,
+    "mean_reward": 4.163334369659424,
+    "success_rate": 0.44,
+    "collision_rate": 0.14,
+    "mean_spl": 0.2796132357078837,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 65536,
+    "mean_reward": -15.973481178283691,
+    "success_rate": 0.4,
+    "collision_rate": 0.18,
+    "mean_spl": 0.25435777761076656,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 67584,
+    "mean_reward": -20.37660026550293,
+    "success_rate": 0.36,
+    "collision_rate": 0.2,
+    "mean_spl": 0.2315165044375166,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 69632,
+    "mean_reward": -17.816513061523438,
+    "success_rate": 0.36,
+    "collision_rate": 0.2,
+    "mean_spl": 0.2315165044375166,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 71680,
+    "mean_reward": 1.7829185724258423,
+    "success_rate": 0.32,
+    "collision_rate": 0.22,
+    "mean_spl": 0.20561665197130277,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 73728,
+    "mean_reward": 45.08562469482422,
+    "success_rate": 0.3,
+    "collision_rate": 0.2,
+    "mean_spl": 0.19543455826148393,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 75776,
+    "mean_reward": 32.640018463134766,
+    "success_rate": 0.32,
+    "collision_rate": 0.18,
+    "mean_spl": 0.21538753658473853,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 77824,
+    "mean_reward": 10.226133346557617,
+    "success_rate": 0.28,
+    "collision_rate": 0.18,
+    "mean_spl": 0.19032864666198468,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 79872,
+    "mean_reward": 9.389066696166992,
+    "success_rate": 0.22,
+    "collision_rate": 0.28,
+    "mean_spl": 0.15484915889466433,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 81920,
+    "mean_reward": 26.722211837768555,
+    "success_rate": 0.24,
+    "collision_rate": 0.34,
+    "mean_spl": 0.16621435606434493,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 83968,
+    "mean_reward": 52.19246292114258,
+    "success_rate": 0.32,
+    "collision_rate": 0.34,
+    "mean_spl": 0.2254253676723467,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 86016,
+    "mean_reward": 34.58900833129883,
+    "success_rate": 0.38,
+    "collision_rate": 0.34,
+    "mean_spl": 0.2731704647043459,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 88064,
+    "mean_reward": 68.42930603027344,
+    "success_rate": 0.46,
+    "collision_rate": 0.36,
+    "mean_spl": 0.3299921874408918,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 90112,
+    "mean_reward": 65.63319396972656,
+    "success_rate": 0.54,
+    "collision_rate": 0.36,
+    "mean_spl": 0.3937119073080075,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 92160,
+    "mean_reward": 31.71196746826172,
+    "success_rate": 0.52,
+    "collision_rate": 0.44,
+    "mean_spl": 0.3854674054920944,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 94208,
+    "mean_reward": 77.78629302978516,
+    "success_rate": 0.64,
+    "collision_rate": 0.34,
+    "mean_spl": 0.4791610992446277,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 96256,
+    "mean_reward": 49.9446907043457,
+    "success_rate": 0.66,
+    "collision_rate": 0.32,
+    "mean_spl": 0.509008120690607,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 98304,
+    "mean_reward": 63.742008209228516,
+    "success_rate": 0.68,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5360665168774241,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 100352,
+    "mean_reward": 71.84364318847656,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5578137032885696,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 102400,
+    "mean_reward": 53.606666564941406,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.6092628038647208,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 104448,
+    "mean_reward": 43.18404006958008,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.5569436937430295,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 106496,
+    "mean_reward": 8.738125801086426,
+    "success_rate": 0.6,
+    "collision_rate": 0.38,
+    "mean_spl": 0.5079099992723585,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 108544,
+    "mean_reward": 44.40460968017578,
+    "success_rate": 0.56,
+    "collision_rate": 0.42,
+    "mean_spl": 0.4598755580655585,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 110592,
+    "mean_reward": 77.75338745117188,
+    "success_rate": 0.6,
+    "collision_rate": 0.38,
+    "mean_spl": 0.4834579211582405,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 112640,
+    "mean_reward": 67.7791976928711,
+    "success_rate": 0.6,
+    "collision_rate": 0.36,
+    "mean_spl": 0.4705476164495391,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 114688,
+    "mean_reward": 59.24713897705078,
+    "success_rate": 0.58,
+    "collision_rate": 0.38,
+    "mean_spl": 0.4367092315408175,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 116736,
+    "mean_reward": 71.8948974609375,
+    "success_rate": 0.62,
+    "collision_rate": 0.34,
+    "mean_spl": 0.4676307085665734,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 118784,
+    "mean_reward": 69.01403045654297,
+    "success_rate": 0.68,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5183345649057374,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 120832,
+    "mean_reward": 90.93815612792969,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5624871015761297,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 122880,
+    "mean_reward": 79.86217498779297,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6334496753467664,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 124928,
+    "mean_reward": 68.95101928710938,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.632403979921546,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 126976,
+    "mean_reward": 55.09408187866211,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6303368227951834,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 129024,
+    "mean_reward": 64.6309814453125,
+    "success_rate": 0.82,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6539607004156055,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 131072,
+    "mean_reward": 88.85555267333984,
+    "success_rate": 0.82,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6351072272737638,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 133120,
+    "mean_reward": 75.84705352783203,
+    "success_rate": 0.82,
+    "collision_rate": 0.12,
+    "mean_spl": 0.634087188185922,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 135168,
+    "mean_reward": 50.197715759277344,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5992697718619945,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 137216,
+    "mean_reward": -0.7176783680915833,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5070595148311794,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 139264,
+    "mean_reward": 6.322281837463379,
+    "success_rate": 0.56,
+    "collision_rate": 0.34,
+    "mean_spl": 0.4098715511219379,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 141312,
+    "mean_reward": 30.292552947998047,
+    "success_rate": 0.54,
+    "collision_rate": 0.38,
+    "mean_spl": 0.39009975197098357,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 143360,
+    "mean_reward": 48.47115707397461,
+    "success_rate": 0.46,
+    "collision_rate": 0.46,
+    "mean_spl": 0.3512631861372671,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 145408,
+    "mean_reward": 51.14208984375,
+    "success_rate": 0.46,
+    "collision_rate": 0.46,
+    "mean_spl": 0.3540393827168827,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 147456,
+    "mean_reward": 80.02613830566406,
+    "success_rate": 0.5,
+    "collision_rate": 0.42,
+    "mean_spl": 0.39883116940618996,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 149504,
+    "mean_reward": 90.0438003540039,
+    "success_rate": 0.62,
+    "collision_rate": 0.34,
+    "mean_spl": 0.4955084798554493,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 151552,
+    "mean_reward": 58.98952102661133,
+    "success_rate": 0.68,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5341448260450808,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 153600,
+    "mean_reward": 32.91753005981445,
+    "success_rate": 0.68,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5417405944274187,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 155648,
+    "mean_reward": 29.372711181640625,
+    "success_rate": 0.64,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5106590080545482,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 157696,
+    "mean_reward": 48.8319091796875,
+    "success_rate": 0.68,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5330240129841295,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 159744,
+    "mean_reward": 60.28055191040039,
+    "success_rate": 0.66,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5216996642534268,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 161792,
+    "mean_reward": 60.042118072509766,
+    "success_rate": 0.62,
+    "collision_rate": 0.34,
+    "mean_spl": 0.4796793599429964,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 163840,
+    "mean_reward": 50.52912139892578,
+    "success_rate": 0.6,
+    "collision_rate": 0.36,
+    "mean_spl": 0.463706612087499,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 165888,
+    "mean_reward": 65.45135498046875,
+    "success_rate": 0.64,
+    "collision_rate": 0.34,
+    "mean_spl": 0.4907638454807169,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 167936,
+    "mean_reward": 59.98964309692383,
+    "success_rate": 0.64,
+    "collision_rate": 0.32,
+    "mean_spl": 0.47837254484716674,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 169984,
+    "mean_reward": 36.095458984375,
+    "success_rate": 0.66,
+    "collision_rate": 0.28,
+    "mean_spl": 0.4967464505564139,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 172032,
+    "mean_reward": 34.775814056396484,
+    "success_rate": 0.64,
+    "collision_rate": 0.26,
+    "mean_spl": 0.4759306000187902,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 174080,
+    "mean_reward": 54.668941497802734,
+    "success_rate": 0.66,
+    "collision_rate": 0.2,
+    "mean_spl": 0.4804677644742333,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 176128,
+    "mean_reward": 91.28752899169922,
+    "success_rate": 0.7,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5068521017825953,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 178176,
+    "mean_reward": 78.65187072753906,
+    "success_rate": 0.72,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5216734691117237,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 180224,
+    "mean_reward": 80.85938262939453,
+    "success_rate": 0.78,
+    "collision_rate": 0.08,
+    "mean_spl": 0.5869450388403776,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 182272,
+    "mean_reward": 61.238319396972656,
+    "success_rate": 0.76,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6004134850211369,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 184320,
+    "mean_reward": 54.7618522644043,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6380010305952607,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 186368,
+    "mean_reward": 90.9559555053711,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6850781903636917,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 188416,
+    "mean_reward": 79.15481567382812,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6808648754498039,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 190464,
+    "mean_reward": 71.94188690185547,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6808087990671914,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 192512,
+    "mean_reward": 68.60350036621094,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6787893670121492,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 194560,
+    "mean_reward": 68.38976287841797,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6730187174052589,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 196608,
+    "mean_reward": 91.20890045166016,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7025774287233397,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 198656,
+    "mean_reward": 53.7861213684082,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6587494268228853,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 200704,
+    "mean_reward": 59.682762145996094,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6369974614653061,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 202752,
+    "mean_reward": 89.42684173583984,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6329807797353165,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 204800,
+    "mean_reward": 80.88980102539062,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6420938424899894,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 206848,
+    "mean_reward": 64.83987426757812,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6718336780618528,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 208896,
+    "mean_reward": 44.22587585449219,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5884775802201925,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 210944,
+    "mean_reward": 91.33428955078125,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6090245124311657,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 212992,
+    "mean_reward": 92.45346069335938,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6717014089656992,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 215040,
+    "mean_reward": 90.0174789428711,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6764024171392005,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 217088,
+    "mean_reward": 75.9814224243164,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.658794115916962,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 219136,
+    "mean_reward": 60.04016876220703,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6950094027645367,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 221184,
+    "mean_reward": 64.42272186279297,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6983360182922381,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 223232,
+    "mean_reward": 61.285491943359375,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6616970490874712,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 225280,
+    "mean_reward": 80.8250961303711,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6440457657178975,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 227328,
+    "mean_reward": 90.52800750732422,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6727749268957691,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 229376,
+    "mean_reward": 61.199623107910156,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6461217354772291,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 231424,
+    "mean_reward": 63.89149856567383,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6627790852955566,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 233472,
+    "mean_reward": 88.99920654296875,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6531133303281226,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 235520,
+    "mean_reward": 80.5201644897461,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6985647601017668,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 237568,
+    "mean_reward": 60.920188903808594,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6843999676579736,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 239616,
+    "mean_reward": 80.95846557617188,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6789731578140459,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 241664,
+    "mean_reward": 71.53111267089844,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6797793398296179,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 243712,
+    "mean_reward": 93.40766906738281,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7256798811812344,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 245760,
+    "mean_reward": 93.13944244384766,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.75731951752419,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 247808,
+    "mean_reward": 70.20142364501953,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7192325312668687,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 249856,
+    "mean_reward": 50.31163024902344,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6914381705727942,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 251904,
+    "mean_reward": 75.67515563964844,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6732221706634859,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 253952,
+    "mean_reward": 89.3919448852539,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6727016451875604,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 256000,
+    "mean_reward": 82.25102996826172,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.673464809965605,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 258048,
+    "mean_reward": 91.3475112915039,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6680935383207592,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 260096,
+    "mean_reward": 68.5700454711914,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6667020247931991,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 262144,
+    "mean_reward": 64.99958801269531,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7099271851938299,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 264192,
+    "mean_reward": 65.1023178100586,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7080962892572892,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 266240,
+    "mean_reward": 93.84413146972656,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7207090850440122,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 268288,
+    "mean_reward": 81.55342864990234,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7332031443221841,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 270336,
+    "mean_reward": 60.76005935668945,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6963042049149065,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 272384,
+    "mean_reward": 78.26858520507812,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7130120858612154,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 274432,
+    "mean_reward": 75.38084411621094,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6828008816654979,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 276480,
+    "mean_reward": 56.79832458496094,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6801553741789356,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 278528,
+    "mean_reward": 80.03639221191406,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6679327770467454,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 280576,
+    "mean_reward": 79.78616333007812,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6479236068583605,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 282624,
+    "mean_reward": 81.18165588378906,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6845211618769419,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 284672,
+    "mean_reward": 71.37635040283203,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6930801271317918,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 286720,
+    "mean_reward": 49.187374114990234,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6608672382687345,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 288768,
+    "mean_reward": 64.93415832519531,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6380601991467416,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 290816,
+    "mean_reward": 44.07062530517578,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.596505760353328,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 292864,
+    "mean_reward": 61.4610710144043,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.5608596048782029,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 294912,
+    "mean_reward": 92.7052001953125,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.585575651704351,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 296960,
+    "mean_reward": 69.66609954833984,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6330191055879343,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 299008,
+    "mean_reward": 54.83076477050781,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6049403614183959,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 301056,
+    "mean_reward": 65.45584869384766,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6404275214176576,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 303104,
+    "mean_reward": 83.57174682617188,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6799843226701221,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 305152,
+    "mean_reward": 81.51651000976562,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.703504752631511,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 307200,
+    "mean_reward": 82.75123596191406,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7219575033698795,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 309248,
+    "mean_reward": 61.02701950073242,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.7114646168655752,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 311296,
+    "mean_reward": 92.42916107177734,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7549949937772594,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 313344,
+    "mean_reward": 92.68359375,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7607789161736653,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 315392,
+    "mean_reward": 92.61793518066406,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.758324951866107,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 317440,
+    "mean_reward": 60.84968948364258,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7354493937817016,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 319488,
+    "mean_reward": 59.52484893798828,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6795081658018561,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 321536,
+    "mean_reward": 93.63566589355469,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7069655462165898,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 323584,
+    "mean_reward": 64.48754119873047,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6722651934905454,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 325632,
+    "mean_reward": 60.743309020996094,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6417260055388583,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 327680,
+    "mean_reward": 64.3887939453125,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.639336510034485,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 329728,
+    "mean_reward": 60.891624450683594,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6539151244667275,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 331776,
+    "mean_reward": 91.85013580322266,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6591870654326106,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 333824,
+    "mean_reward": 69.30416107177734,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6469427780325528,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 335872,
+    "mean_reward": 68.83503723144531,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6299947550715173,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 337920,
+    "mean_reward": 49.88182067871094,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6489361447004217,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 339968,
+    "mean_reward": 65.21910095214844,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6446623162015314,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 342016,
+    "mean_reward": 78.4827880859375,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.650270944864329,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 344064,
+    "mean_reward": 90.7486801147461,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6391594068199096,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 346112,
+    "mean_reward": 93.86483764648438,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6809980024779725,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 348160,
+    "mean_reward": 67.0560531616211,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6883546406504396,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 350208,
+    "mean_reward": 49.98805618286133,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6603901096810904,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 352256,
+    "mean_reward": 92.7834701538086,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6977842500539719,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 354304,
+    "mean_reward": 74.24645233154297,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.704567172861685,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 356352,
+    "mean_reward": 78.84913635253906,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6910246284393377,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 358400,
+    "mean_reward": 64.52653503417969,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6744309722887455,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 360448,
+    "mean_reward": 44.641475677490234,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.648489187336537,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 362496,
+    "mean_reward": 37.8074951171875,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.616110207621674,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 364544,
+    "mean_reward": 69.27326965332031,
+    "success_rate": 0.72,
+    "collision_rate": 0.26,
+    "mean_spl": 0.594790696632608,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 366592,
+    "mean_reward": 69.08863830566406,
+    "success_rate": 0.7,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5817307329398269,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 368640,
+    "mean_reward": 75.0247573852539,
+    "success_rate": 0.7,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5746368206625507,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 370688,
+    "mean_reward": 36.1876220703125,
+    "success_rate": 0.66,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5399966783802284,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 372736,
+    "mean_reward": 43.87758255004883,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.5390224962161928,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 374784,
+    "mean_reward": 35.7628059387207,
+    "success_rate": 0.68,
+    "collision_rate": 0.28,
+    "mean_spl": 0.547282233422928,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 376832,
+    "mean_reward": 91.08841705322266,
+    "success_rate": 0.68,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5423597558531137,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 378880,
+    "mean_reward": 72.55863189697266,
+    "success_rate": 0.7,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5455716960153607,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 380928,
+    "mean_reward": 73.78919219970703,
+    "success_rate": 0.7,
+    "collision_rate": 0.26,
+    "mean_spl": 0.529811884173618,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 382976,
+    "mean_reward": 53.91978073120117,
+    "success_rate": 0.7,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5306275159867231,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 385024,
+    "mean_reward": 59.21149444580078,
+    "success_rate": 0.72,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5465209222392763,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 387072,
+    "mean_reward": 89.66900634765625,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5914591238959572,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 389120,
+    "mean_reward": 60.46846389770508,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6101685146523181,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 391168,
+    "mean_reward": 54.99418258666992,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5982458936384145,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 393216,
+    "mean_reward": 72.54312896728516,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5936036066769484,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 395264,
+    "mean_reward": 91.42230224609375,
+    "success_rate": 0.8,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5963825970299415,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 397312,
+    "mean_reward": 48.85177230834961,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5792280338549355,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 399360,
+    "mean_reward": 44.16421890258789,
+    "success_rate": 0.76,
+    "collision_rate": 0.14,
+    "mean_spl": 0.551927722678942,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 401408,
+    "mean_reward": 69.84249877929688,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5411327707920016,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 403456,
+    "mean_reward": 69.26529693603516,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5260049125308587,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 405504,
+    "mean_reward": 50.313716888427734,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5390284702973817,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 407552,
+    "mean_reward": 92.96694946289062,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5833999661119985,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 409600,
+    "mean_reward": 50.003395080566406,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5794603875942428,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 411648,
+    "mean_reward": 92.78317260742188,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6461458617721096,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 413696,
+    "mean_reward": 58.67845153808594,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.634282442679234,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 415744,
+    "mean_reward": 92.05010223388672,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6920278128487648,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 417792,
+    "mean_reward": 74.55233001708984,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6832193628537384,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 419840,
+    "mean_reward": 48.474220275878906,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6438838562633671,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 421888,
+    "mean_reward": 50.66569137573242,
+    "success_rate": 0.68,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5915521550271307,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 423936,
+    "mean_reward": 92.33920288085938,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6455620507420964,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 425984,
+    "mean_reward": 76.26209259033203,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6361780399919423,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 428032,
+    "mean_reward": 80.48778533935547,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6427188723426811,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 430080,
+    "mean_reward": 92.3731918334961,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.669324725390478,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 432128,
+    "mean_reward": 92.49715423583984,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7209208639868047,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 434176,
+    "mean_reward": 71.9190673828125,
+    "success_rate": 0.92,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7638819533206451,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 436224,
+    "mean_reward": 58.172054290771484,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.709020456901683,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 438272,
+    "mean_reward": 56.15037536621094,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6796371067682186,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 440320,
+    "mean_reward": 68.34378814697266,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6685638776399052,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 442368,
+    "mean_reward": 72.27598571777344,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6407080729754516,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 444416,
+    "mean_reward": 58.91795349121094,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6224184655794954,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 446464,
+    "mean_reward": 56.39543151855469,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6137679579873544,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 448512,
+    "mean_reward": 44.702144622802734,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5880069506873231,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 450560,
+    "mean_reward": 70.11965942382812,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5875874084989545,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 452608,
+    "mean_reward": 94.40980529785156,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.6034785061337709,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 454656,
+    "mean_reward": 93.88859558105469,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6682693572618496,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 456704,
+    "mean_reward": 92.84141540527344,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6941169263431918,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 458752,
+    "mean_reward": 92.28740692138672,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.737034899166748,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 460800,
+    "mean_reward": 43.268524169921875,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7469297672625633,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 462848,
+    "mean_reward": 44.369415283203125,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7123771189972002,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 464896,
+    "mean_reward": 78.79100799560547,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6951990433521408,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 466944,
+    "mean_reward": 41.92047119140625,
+    "success_rate": 0.76,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6186146766613569,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 468992,
+    "mean_reward": 81.06036376953125,
+    "success_rate": 0.74,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6039796327042121,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 471040,
+    "mean_reward": 69.52403259277344,
+    "success_rate": 0.7,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5731313941185235,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 473088,
+    "mean_reward": 81.51337432861328,
+    "success_rate": 0.74,
+    "collision_rate": 0.18,
+    "mean_spl": 0.604567860117198,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 475136,
+    "mean_reward": 71.52442169189453,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6593208535728948,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 477184,
+    "mean_reward": 91.99886322021484,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6720036976093217,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 479232,
+    "mean_reward": 53.58797836303711,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6585405463942132,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 481280,
+    "mean_reward": 90.59856414794922,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6506989417090074,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 483328,
+    "mean_reward": 79.16484832763672,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.667054632340404,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 485376,
+    "mean_reward": 88.44184112548828,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6565965527442462,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 487424,
+    "mean_reward": 61.17618179321289,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6373696035007917,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 489472,
+    "mean_reward": 92.97317504882812,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6576731414688516,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 491520,
+    "mean_reward": 72.19121551513672,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6464436257828402,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 493568,
+    "mean_reward": 84.8206787109375,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7156737571093792,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 495616,
+    "mean_reward": 83.42125701904297,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7398528648045669,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 497664,
+    "mean_reward": 93.38225555419922,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7775579376326252,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 499712,
+    "mean_reward": 74.10553741455078,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7711530563853836,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 501760,
+    "mean_reward": 50.027626037597656,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7254221893959982,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 503808,
+    "mean_reward": 53.715293884277344,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6431432413094796,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 505856,
+    "mean_reward": 56.67558288574219,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5943927599122455,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 507904,
+    "mean_reward": 81.05628204345703,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5677264000507413,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 509952,
+    "mean_reward": 74.60978698730469,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5862876024477843,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 512000,
+    "mean_reward": 81.09228515625,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6315557211727688,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 514048,
+    "mean_reward": 54.57341003417969,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6532243834562246,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 516096,
+    "mean_reward": 31.13588523864746,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6087031548522469,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 518144,
+    "mean_reward": 56.89888000488281,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5800283552539197,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 520192,
+    "mean_reward": 64.55612182617188,
+    "success_rate": 0.64,
+    "collision_rate": 0.36,
+    "mean_spl": 0.5338250062143653,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 522240,
+    "mean_reward": 80.81668853759766,
+    "success_rate": 0.64,
+    "collision_rate": 0.36,
+    "mean_spl": 0.5260999368658927,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 524288,
+    "mean_reward": 68.80038452148438,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5584725704505987,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 526336,
+    "mean_reward": 68.80868530273438,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5957805493234999,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 528384,
+    "mean_reward": 61.33963394165039,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6008694122260123,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 530432,
+    "mean_reward": 78.48915100097656,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6291352586432156,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 532480,
+    "mean_reward": 80.4122543334961,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6397772279961011,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 534528,
+    "mean_reward": 24.286924362182617,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5809025878591797,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 536576,
+    "mean_reward": 38.734458923339844,
+    "success_rate": 0.7,
+    "collision_rate": 0.22,
+    "mean_spl": 0.542147920401172,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 538624,
+    "mean_reward": 91.7027587890625,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5448448950227509,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 540672,
+    "mean_reward": 56.35844421386719,
+    "success_rate": 0.72,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5488251475429705,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 542720,
+    "mean_reward": 71.40544891357422,
+    "success_rate": 0.7,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5374863414700832,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 544768,
+    "mean_reward": 44.004844665527344,
+    "success_rate": 0.64,
+    "collision_rate": 0.28,
+    "mean_spl": 0.4770796641174283,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 546816,
+    "mean_reward": 56.83684539794922,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5046727243283129,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 548864,
+    "mean_reward": 60.97307586669922,
+    "success_rate": 0.72,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5414212244433039,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 550912,
+    "mean_reward": 57.24013900756836,
+    "success_rate": 0.68,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5319164801446361,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 552960,
+    "mean_reward": 64.51895141601562,
+    "success_rate": 0.68,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5391083886921556,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 555008,
+    "mean_reward": 46.103981018066406,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5360820314515572,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 557056,
+    "mean_reward": 45.314151763916016,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5175324103845146,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 559104,
+    "mean_reward": 2.1793766021728516,
+    "success_rate": 0.62,
+    "collision_rate": 0.26,
+    "mean_spl": 0.4735385717142978,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 561152,
+    "mean_reward": 30.315120697021484,
+    "success_rate": 0.58,
+    "collision_rate": 0.28,
+    "mean_spl": 0.42946584118691983,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 563200,
+    "mean_reward": 54.8200569152832,
+    "success_rate": 0.58,
+    "collision_rate": 0.3,
+    "mean_spl": 0.4304579134823193,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 565248,
+    "mean_reward": 72.08905029296875,
+    "success_rate": 0.6,
+    "collision_rate": 0.28,
+    "mean_spl": 0.44090599403497,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 567296,
+    "mean_reward": 81.43838500976562,
+    "success_rate": 0.62,
+    "collision_rate": 0.28,
+    "mean_spl": 0.4641148137506543,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 569344,
+    "mean_reward": 49.680015563964844,
+    "success_rate": 0.64,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5026507854677544,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 571392,
+    "mean_reward": 78.87845611572266,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5843840246931229,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 573440,
+    "mean_reward": 69.45197296142578,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6241992427913123,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 575488,
+    "mean_reward": 83.16519927978516,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6574370578165543,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 577536,
+    "mean_reward": 60.6459846496582,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6172781850570771,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 579584,
+    "mean_reward": 54.71219253540039,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6538849066141259,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 581632,
+    "mean_reward": 78.88664245605469,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6570243293331933,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 583680,
+    "mean_reward": 69.99066925048828,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6562066923213233,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 585728,
+    "mean_reward": 78.66411590576172,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6488226430637173,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 587776,
+    "mean_reward": 93.14730834960938,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6637576132421396,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 589824,
+    "mean_reward": 94.6180419921875,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7373331940453223,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 591872,
+    "mean_reward": 82.69764709472656,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.760557385162823,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 593920,
+    "mean_reward": 45.3267936706543,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7152812234553942,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 595968,
+    "mean_reward": 51.67672348022461,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.693446733943606,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 598016,
+    "mean_reward": 43.834014892578125,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6170019108354513,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 600064,
+    "mean_reward": 54.7276496887207,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5766310729938732,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 602112,
+    "mean_reward": 78.8100814819336,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5497446925700696,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 604160,
+    "mean_reward": 30.49228858947754,
+    "success_rate": 0.64,
+    "collision_rate": 0.24,
+    "mean_spl": 0.4752793376083027,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 606208,
+    "mean_reward": 52.15187072753906,
+    "success_rate": 0.62,
+    "collision_rate": 0.24,
+    "mean_spl": 0.4327573807767326,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 608256,
+    "mean_reward": 9.980289459228516,
+    "success_rate": 0.56,
+    "collision_rate": 0.26,
+    "mean_spl": 0.37645498065365773,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 610304,
+    "mean_reward": 23.91440200805664,
+    "success_rate": 0.52,
+    "collision_rate": 0.26,
+    "mean_spl": 0.3451607301144028,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 612352,
+    "mean_reward": -2.693035364151001,
+    "success_rate": 0.46,
+    "collision_rate": 0.32,
+    "mean_spl": 0.31570052469551557,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 614400,
+    "mean_reward": 54.06809616088867,
+    "success_rate": 0.5,
+    "collision_rate": 0.26,
+    "mean_spl": 0.33555866477706203,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 616448,
+    "mean_reward": 60.774932861328125,
+    "success_rate": 0.48,
+    "collision_rate": 0.32,
+    "mean_spl": 0.3331370562189712,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 618496,
+    "mean_reward": 78.73210144042969,
+    "success_rate": 0.54,
+    "collision_rate": 0.3,
+    "mean_spl": 0.36911746597113404,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 620544,
+    "mean_reward": 75.02920532226562,
+    "success_rate": 0.62,
+    "collision_rate": 0.26,
+    "mean_spl": 0.473549066386647,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 622592,
+    "mean_reward": 92.202392578125,
+    "success_rate": 0.72,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5663003407495316,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 624640,
+    "mean_reward": 61.71601486206055,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6290370439561673,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 626688,
+    "mean_reward": 92.58719635009766,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6865476966573523,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 628736,
+    "mean_reward": 57.05116271972656,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6764008250645044,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 630784,
+    "mean_reward": 92.97898864746094,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7022611594589679,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 632832,
+    "mean_reward": 81.20085906982422,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7014390699050241,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 634880,
+    "mean_reward": 72.44608306884766,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6752926920020345,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 636928,
+    "mean_reward": 94.91504669189453,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7161969540578313,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 638976,
+    "mean_reward": 77.48844146728516,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7172808642071883,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 641024,
+    "mean_reward": 92.54106140136719,
+    "success_rate": 0.92,
+    "collision_rate": 0.08,
+    "mean_spl": 0.749398548684953,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 643072,
+    "mean_reward": 71.55494689941406,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7359085081092459,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 645120,
+    "mean_reward": 54.930503845214844,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7066720503944102,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 647168,
+    "mean_reward": 48.9658088684082,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6128649734997188,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 649216,
+    "mean_reward": 77.94189453125,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6227541757189349,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 651264,
+    "mean_reward": 94.85309600830078,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6347289868195082,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 653312,
+    "mean_reward": 61.84545135498047,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6162455844213087,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 655360,
+    "mean_reward": 74.45840454101562,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6487535274110133,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 657408,
+    "mean_reward": 78.7380599975586,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6860766625325361,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 659456,
+    "mean_reward": 92.83634185791016,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.697362923675417,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 661504,
+    "mean_reward": 84.34198760986328,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.70328342399584,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 663552,
+    "mean_reward": 70.06519317626953,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7171929577752388,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 665600,
+    "mean_reward": 64.47341918945312,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7045265211777004,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 667648,
+    "mean_reward": 79.36621856689453,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7149204939204972,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 669696,
+    "mean_reward": 56.247779846191406,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6694192740545862,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 671744,
+    "mean_reward": 77.92200469970703,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6477194739002234,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 673792,
+    "mean_reward": 75.0724868774414,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6657802358579867,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 675840,
+    "mean_reward": 57.08119201660156,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6024632017119663,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 677888,
+    "mean_reward": 68.0185317993164,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6106681227189832,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 679936,
+    "mean_reward": 83.62324523925781,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.646639478590399,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 681984,
+    "mean_reward": 82.90824127197266,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6913680405839223,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 684032,
+    "mean_reward": 78.61491394042969,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7010182162806129,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 686080,
+    "mean_reward": 77.685546875,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.716233308639625,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 688128,
+    "mean_reward": 64.87718963623047,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7173205093608007,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 690176,
+    "mean_reward": 69.16949462890625,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6714928043084477,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 692224,
+    "mean_reward": 60.596656799316406,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6287059526789379,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 694272,
+    "mean_reward": 91.26436614990234,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6206999750474511,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 696320,
+    "mean_reward": 92.26190185546875,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.627760509377304,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 698368,
+    "mean_reward": 76.94706726074219,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6423363116908644,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 700416,
+    "mean_reward": 79.0902099609375,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6458001000154515,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 702464,
+    "mean_reward": 80.65184020996094,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6679784143137799,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 704512,
+    "mean_reward": 92.01348876953125,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6768145638201717,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 706560,
+    "mean_reward": 82.73090362548828,
+    "success_rate": 0.92,
+    "collision_rate": 0.08,
+    "mean_spl": 0.719311058352623,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 708608,
+    "mean_reward": 60.46391677856445,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7076649670404683,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 710656,
+    "mean_reward": 92.48632049560547,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7006271015392536,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 712704,
+    "mean_reward": 72.23806762695312,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.691624775831729,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 714752,
+    "mean_reward": 65.35702514648438,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6866505052566125,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 716800,
+    "mean_reward": 77.33375549316406,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6649036770641901,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 718848,
+    "mean_reward": 32.277488708496094,
+    "success_rate": 0.76,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6126796167918883,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 720896,
+    "mean_reward": 39.25984191894531,
+    "success_rate": 0.72,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5718905041182589,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 722944,
+    "mean_reward": 54.285953521728516,
+    "success_rate": 0.66,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5285055113702369,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 724992,
+    "mean_reward": 69.28414154052734,
+    "success_rate": 0.66,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5391542316222179,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 727040,
+    "mean_reward": 83.87193298339844,
+    "success_rate": 0.68,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5557763015434604,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 729088,
+    "mean_reward": 69.97465515136719,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6117093670701685,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 731136,
+    "mean_reward": 60.43410110473633,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.607221493363145,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 733184,
+    "mean_reward": 45.03226852416992,
+    "success_rate": 0.72,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5726327065131411,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 735232,
+    "mean_reward": 72.59886169433594,
+    "success_rate": 0.72,
+    "collision_rate": 0.26,
+    "mean_spl": 0.566341597076403,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 737280,
+    "mean_reward": 74.83757781982422,
+    "success_rate": 0.7,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5674001960620657,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 739328,
+    "mean_reward": 95.14407348632812,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6473338161671636,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 741376,
+    "mean_reward": 68.85328674316406,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6611537626588784,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 743424,
+    "mean_reward": 36.08304214477539,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6507649997480814,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 745472,
+    "mean_reward": 60.62357711791992,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6482809631814587,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 747520,
+    "mean_reward": 35.03877258300781,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5904411367923313,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 749568,
+    "mean_reward": 83.47677612304688,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5815277933141689,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 751616,
+    "mean_reward": 49.99140930175781,
+    "success_rate": 0.64,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5288329227052477,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 753664,
+    "mean_reward": 56.6856575012207,
+    "success_rate": 0.66,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5321029858719311,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 755712,
+    "mean_reward": 81.04148864746094,
+    "success_rate": 0.7,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5662528636936504,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 757760,
+    "mean_reward": 66.30918884277344,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6289159834164926,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 759808,
+    "mean_reward": 82.85194396972656,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6185552964664005,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 761856,
+    "mean_reward": 54.802001953125,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6086718202195065,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 763904,
+    "mean_reward": 29.961336135864258,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5686358922697246,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 765952,
+    "mean_reward": 93.4006118774414,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.615033492514383,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 768000,
+    "mean_reward": 93.53314971923828,
+    "success_rate": 0.82,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6499338104336166,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 770048,
+    "mean_reward": 82.94102478027344,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6791152558597269,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 772096,
+    "mean_reward": 82.20874786376953,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6899726404193044,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 774144,
+    "mean_reward": 51.08827209472656,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6817364386974957,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 776192,
+    "mean_reward": 79.958740234375,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7278787775863185,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 778240,
+    "mean_reward": 74.29409790039062,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6886764477855654,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 780288,
+    "mean_reward": 78.3750991821289,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6630204808960742,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 782336,
+    "mean_reward": 65.24198150634766,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6422186862965499,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 784384,
+    "mean_reward": 72.12042236328125,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6614798976417972,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 786432,
+    "mean_reward": 79.53257751464844,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6970474944234908,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 788480,
+    "mean_reward": 60.129947662353516,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6668977069164174,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 790528,
+    "mean_reward": 30.08066749572754,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6315721408415392,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 792576,
+    "mean_reward": 69.22810363769531,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6121841755392361,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 794624,
+    "mean_reward": 81.2227554321289,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6187708801045688,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 796672,
+    "mean_reward": 38.709598541259766,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5811893255238658,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 798720,
+    "mean_reward": 80.8941650390625,
+    "success_rate": 0.72,
+    "collision_rate": 0.18,
+    "mean_spl": 0.586025771043701,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 800768,
+    "mean_reward": 51.25636291503906,
+    "success_rate": 0.7,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5750742286073987,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 802816,
+    "mean_reward": 68.40269470214844,
+    "success_rate": 0.74,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6128488832874195,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 804864,
+    "mean_reward": 71.7551040649414,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6152195969266867,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 806912,
+    "mean_reward": 79.94439697265625,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6429749917041688,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 808960,
+    "mean_reward": 93.31727600097656,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6940715743244765,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 811008,
+    "mean_reward": 93.3815689086914,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7100539518756022,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 813056,
+    "mean_reward": 84.91838073730469,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7516712393802958,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 815104,
+    "mean_reward": 69.26703643798828,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7592343906398102,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 817152,
+    "mean_reward": 57.84759521484375,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7074778651245497,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 819200,
+    "mean_reward": 81.2927474975586,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6913581118765998,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 821248,
+    "mean_reward": 61.11265182495117,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6264624766108688,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 823296,
+    "mean_reward": 56.543243408203125,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5938818387691197,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 825344,
+    "mean_reward": 65.64995574951172,
+    "success_rate": 0.72,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5778762703687789,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 827392,
+    "mean_reward": 67.04136657714844,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6028153449657833,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 829440,
+    "mean_reward": 56.075439453125,
+    "success_rate": 0.7,
+    "collision_rate": 0.26,
+    "mean_spl": 0.566140264659245,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 831488,
+    "mean_reward": 76.97891998291016,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5960097083424578,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 833536,
+    "mean_reward": 29.600202560424805,
+    "success_rate": 0.68,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5427353538092641,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 835584,
+    "mean_reward": 44.646728515625,
+    "success_rate": 0.68,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5609936866664514,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 837632,
+    "mean_reward": 78.33029174804688,
+    "success_rate": 0.7,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5745023659016438,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 839680,
+    "mean_reward": 79.59902954101562,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6071055620044635,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 841728,
+    "mean_reward": 81.9559555053711,
+    "success_rate": 0.76,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6430873836928468,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 843776,
+    "mean_reward": 56.12947463989258,
+    "success_rate": 0.74,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6302907065014812,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 845824,
+    "mean_reward": 18.797515869140625,
+    "success_rate": 0.7,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5991572337113407,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 847872,
+    "mean_reward": 45.40015411376953,
+    "success_rate": 0.7,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5908183054811118,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 849920,
+    "mean_reward": 46.96597671508789,
+    "success_rate": 0.7,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5774174551349678,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 851968,
+    "mean_reward": 61.99216079711914,
+    "success_rate": 0.7,
+    "collision_rate": 0.1,
+    "mean_spl": 0.5669754890162843,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 854016,
+    "mean_reward": 44.70778274536133,
+    "success_rate": 0.64,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5153007370685101,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 856064,
+    "mean_reward": 93.35595703125,
+    "success_rate": 0.66,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5076351379115307,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 858112,
+    "mean_reward": 85.27821350097656,
+    "success_rate": 0.72,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5673599191128289,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 860160,
+    "mean_reward": 72.6115951538086,
+    "success_rate": 0.78,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6296802247967548,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 862208,
+    "mean_reward": 65.67295837402344,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6507529680646926,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 864256,
+    "mean_reward": 57.37406539916992,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6696061912381643,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 866304,
+    "mean_reward": 71.809326171875,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6717834900521304,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 868352,
+    "mean_reward": 54.67481994628906,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6394627029472114,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 870400,
+    "mean_reward": 44.419654846191406,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.573649316620848,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 872448,
+    "mean_reward": 81.59559631347656,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5844909733667109,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 874496,
+    "mean_reward": 58.45780563354492,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5655721843824848,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 876544,
+    "mean_reward": 36.38023376464844,
+    "success_rate": 0.66,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5199953271535928,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 878592,
+    "mean_reward": 69.7211685180664,
+    "success_rate": 0.68,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5355332501585213,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 880640,
+    "mean_reward": 61.44883346557617,
+    "success_rate": 0.68,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5307276162266007,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 882688,
+    "mean_reward": 91.9876480102539,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5717212990097804,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 884736,
+    "mean_reward": 68.49270629882812,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5711428648762406,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 886784,
+    "mean_reward": 72.2562255859375,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.607624938315123,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 888832,
+    "mean_reward": 81.55644989013672,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6637743089757678,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 890880,
+    "mean_reward": 79.20156860351562,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6684742236751836,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 892928,
+    "mean_reward": 54.21559143066406,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6553991876627481,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 894976,
+    "mean_reward": 61.1768913269043,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6442898309127032,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 897024,
+    "mean_reward": 91.61101531982422,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.646258134003095,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 899072,
+    "mean_reward": 58.59376907348633,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6144823300095359,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 901120,
+    "mean_reward": 61.742225646972656,
+    "success_rate": 0.72,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6076095009276468,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 903168,
+    "mean_reward": 77.41783142089844,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6534194200753456,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 905216,
+    "mean_reward": 70.12226867675781,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6777138417683561,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 907264,
+    "mean_reward": 70.12804412841797,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6606213497346672,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 909312,
+    "mean_reward": 67.2119369506836,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6773037566987051,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 911360,
+    "mean_reward": 65.99958038330078,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6487513252848345,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 913408,
+    "mean_reward": 65.51982116699219,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6164676871190881,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 915456,
+    "mean_reward": 72.92279815673828,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6269404489311995,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 917504,
+    "mean_reward": 79.74658203125,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6237842570271629,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 919552,
+    "mean_reward": 79.5411376953125,
+    "success_rate": 0.8,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6437382993714243,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 921600,
+    "mean_reward": 76.45112609863281,
+    "success_rate": 0.82,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6658464574530366,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 923648,
+    "mean_reward": 78.39595794677734,
+    "success_rate": 0.84,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6973253860421902,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 925696,
+    "mean_reward": 79.85661315917969,
+    "success_rate": 0.86,
+    "collision_rate": 0.04,
+    "mean_spl": 0.7013990262947358,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 927744,
+    "mean_reward": 82.03412628173828,
+    "success_rate": 0.88,
+    "collision_rate": 0.04,
+    "mean_spl": 0.7008722069804171,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 929792,
+    "mean_reward": 85.03923034667969,
+    "success_rate": 0.88,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7144118294493487,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 931840,
+    "mean_reward": 92.89410400390625,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7256937827815909,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 933888,
+    "mean_reward": 55.453086853027344,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6978438942293201,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 935936,
+    "mean_reward": 77.30626678466797,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6938229826313861,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 937984,
+    "mean_reward": 49.697914123535156,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.660269188714547,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 940032,
+    "mean_reward": 75.59468841552734,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6430870411774283,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 942080,
+    "mean_reward": 79.1744384765625,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6259408555873696,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 944128,
+    "mean_reward": 84.4585189819336,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.601897209188326,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 946176,
+    "mean_reward": 93.29743957519531,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6720531332697993,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 948224,
+    "mean_reward": 76.97418975830078,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7367322419257256,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 950272,
+    "mean_reward": 84.68115997314453,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7623131860528121,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 952320,
+    "mean_reward": 40.55730056762695,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7052347829892489,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 954368,
+    "mean_reward": 40.19890213012695,
+    "success_rate": 0.72,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6171009014770255,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 956416,
+    "mean_reward": 31.67435646057129,
+    "success_rate": 0.62,
+    "collision_rate": 0.34,
+    "mean_spl": 0.5165600213321226,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 958464,
+    "mean_reward": 63.44784927368164,
+    "success_rate": 0.62,
+    "collision_rate": 0.34,
+    "mean_spl": 0.49056655293818563,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 960512,
+    "mean_reward": 56.99172592163086,
+    "success_rate": 0.58,
+    "collision_rate": 0.38,
+    "mean_spl": 0.4449357721916733,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 962560,
+    "mean_reward": 73.52345275878906,
+    "success_rate": 0.6,
+    "collision_rate": 0.36,
+    "mean_spl": 0.46315009684822167,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 964608,
+    "mean_reward": 72.01409149169922,
+    "success_rate": 0.68,
+    "collision_rate": 0.3,
+    "mean_spl": 0.52895706810647,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 966656,
+    "mean_reward": 81.4633560180664,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6164981099180005,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 968704,
+    "mean_reward": 84.80683898925781,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6635198419647332,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 970752,
+    "mean_reward": 61.48671340942383,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7055797842962839,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 972800,
+    "mean_reward": 93.42655181884766,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7393256601613558,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 974848,
+    "mean_reward": 69.70315551757812,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7202583653143454,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 976896,
+    "mean_reward": 93.62413024902344,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7346337664610019,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 978944,
+    "mean_reward": 67.60051727294922,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6979275918238526,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 980992,
+    "mean_reward": 83.38114929199219,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7365237308991393,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 983040,
+    "mean_reward": 57.63741683959961,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6921501294482575,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 985088,
+    "mean_reward": 79.66900634765625,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7158079619445894,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 987136,
+    "mean_reward": 67.22472381591797,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6749955035203591,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 989184,
+    "mean_reward": 69.23540496826172,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.676138875613508,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 991232,
+    "mean_reward": 68.75289916992188,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6402169439953487,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 993280,
+    "mean_reward": 51.472286224365234,
+    "success_rate": 0.74,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5892764862223167,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 995328,
+    "mean_reward": 35.96391296386719,
+    "success_rate": 0.72,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5653803881403486,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 997376,
+    "mean_reward": 74.04572296142578,
+    "success_rate": 0.72,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5648682515805946,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 999424,
+    "mean_reward": 66.8634262084961,
+    "success_rate": 0.72,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5468486158317942,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1001472,
+    "mean_reward": 57.99713897705078,
+    "success_rate": 0.68,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5226933917658394,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1003520,
+    "mean_reward": 37.84093475341797,
+    "success_rate": 0.66,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5149095814410513,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1005568,
+    "mean_reward": 45.633460998535156,
+    "success_rate": 0.62,
+    "collision_rate": 0.26,
+    "mean_spl": 0.4915636013290591,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1007616,
+    "mean_reward": 79.47412109375,
+    "success_rate": 0.66,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5319908903728954,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1009664,
+    "mean_reward": 62.22166061401367,
+    "success_rate": 0.68,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5402954194994465,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1011712,
+    "mean_reward": 85.3878173828125,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5998666118007147,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1013760,
+    "mean_reward": 72.06694030761719,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5697570244538779,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1015808,
+    "mean_reward": 85.14116668701172,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6745889284586686,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1017856,
+    "mean_reward": 54.54854965209961,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6549638891127401,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1019904,
+    "mean_reward": 36.612789154052734,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6274467376899578,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1021952,
+    "mean_reward": 72.25814056396484,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5928956254514277,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1024000,
+    "mean_reward": 69.73600769042969,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5878712105829248,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1026048,
+    "mean_reward": 44.619590759277344,
+    "success_rate": 0.66,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5180260590053948,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1028096,
+    "mean_reward": 78.85601806640625,
+    "success_rate": 0.68,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5332204073960259,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1030144,
+    "mean_reward": 60.5483283996582,
+    "success_rate": 0.7,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5507639251660201,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1032192,
+    "mean_reward": 92.55590057373047,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6006859364334817,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1034240,
+    "mean_reward": 80.60365295410156,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6078287512642455,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1036288,
+    "mean_reward": 72.52495574951172,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6307989388746005,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1038336,
+    "mean_reward": 70.45211029052734,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6438417834250513,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1040384,
+    "mean_reward": 72.3738021850586,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6797490710768815,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1042432,
+    "mean_reward": 84.8442611694336,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7016479774889413,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1044480,
+    "mean_reward": 84.78961181640625,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7251072663187146,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1046528,
+    "mean_reward": 78.31539916992188,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7495802969152561,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1048576,
+    "mean_reward": 48.73736572265625,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7405681142943724,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1050624,
+    "mean_reward": 39.08838653564453,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6922449896733245,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1052672,
+    "mean_reward": 59.19408416748047,
+    "success_rate": 0.78,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6756298423063366,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1054720,
+    "mean_reward": 50.127601623535156,
+    "success_rate": 0.72,
+    "collision_rate": 0.14,
+    "mean_spl": 0.621666496965056,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1056768,
+    "mean_reward": 94.0017318725586,
+    "success_rate": 0.74,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6361084150527464,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1058816,
+    "mean_reward": 93.51103210449219,
+    "success_rate": 0.74,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6463668615556437,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1060864,
+    "mean_reward": 94.51181030273438,
+    "success_rate": 0.82,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7096461998197847,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1062912,
+    "mean_reward": 92.96440124511719,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7823741093339419,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1064960,
+    "mean_reward": 83.83804321289062,
+    "success_rate": 0.94,
+    "collision_rate": 0.04,
+    "mean_spl": 0.8274277818546402,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1067008,
+    "mean_reward": 93.5917739868164,
+    "success_rate": 0.98,
+    "collision_rate": 0.02,
+    "mean_spl": 0.8487995662947486,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1069056,
+    "mean_reward": 40.257789611816406,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.750838221636618,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1071104,
+    "mean_reward": 68.80691528320312,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7234904592583489,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1073152,
+    "mean_reward": 54.50583267211914,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6829463237994656,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1075200,
+    "mean_reward": 44.34213638305664,
+    "success_rate": 0.7,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6064318243645128,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1077248,
+    "mean_reward": 69.9969482421875,
+    "success_rate": 0.66,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5827285616094081,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1079296,
+    "mean_reward": 78.15444946289062,
+    "success_rate": 0.7,
+    "collision_rate": 0.24,
+    "mean_spl": 0.601492885657582,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1081344,
+    "mean_reward": 74.58604431152344,
+    "success_rate": 0.72,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6107423351994887,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1083392,
+    "mean_reward": 95.49099731445312,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.682166294033958,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1085440,
+    "mean_reward": 73.13191986083984,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7374047667174746,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1087488,
+    "mean_reward": 81.40928649902344,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7471581128062823,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1089536,
+    "mean_reward": 93.12667083740234,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.782149849896501,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1091584,
+    "mean_reward": 59.65982437133789,
+    "success_rate": 0.88,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7477978107847221,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1093632,
+    "mean_reward": 51.75504684448242,
+    "success_rate": 0.84,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7027526064923219,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1095680,
+    "mean_reward": 72.87262725830078,
+    "success_rate": 0.82,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6645520620351774,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1097728,
+    "mean_reward": 51.836090087890625,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6372790868158068,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1099776,
+    "mean_reward": 68.98661804199219,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.611290895346999,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1101824,
+    "mean_reward": 60.74469757080078,
+    "success_rate": 0.72,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5818567170376757,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1103872,
+    "mean_reward": 81.15928649902344,
+    "success_rate": 0.74,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6062048718539697,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1105920,
+    "mean_reward": 61.87744140625,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6138068478524024,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1107968,
+    "mean_reward": 45.54965591430664,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5990495568445039,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1110016,
+    "mean_reward": 67.58240509033203,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6244639414831148,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1112064,
+    "mean_reward": 93.21090698242188,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6369611115140313,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1114112,
+    "mean_reward": 94.80632781982422,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6598059218176411,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1116160,
+    "mean_reward": 79.61003112792969,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7167706054549717,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1118208,
+    "mean_reward": 60.960487365722656,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7336370099143581,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1120256,
+    "mean_reward": 25.852025985717773,
+    "success_rate": 0.84,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7141739700072101,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1122304,
+    "mean_reward": 55.7933464050293,
+    "success_rate": 0.82,
+    "collision_rate": 0.04,
+    "mean_spl": 0.6708807635238457,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1124352,
+    "mean_reward": 72.48076629638672,
+    "success_rate": 0.8,
+    "collision_rate": 0.04,
+    "mean_spl": 0.6461561779494183,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1126400,
+    "mean_reward": 79.23431396484375,
+    "success_rate": 0.78,
+    "collision_rate": 0.04,
+    "mean_spl": 0.6262732394117639,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1128448,
+    "mean_reward": 73.60845184326172,
+    "success_rate": 0.74,
+    "collision_rate": 0.06,
+    "mean_spl": 0.5870509373800818,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1130496,
+    "mean_reward": 76.80846405029297,
+    "success_rate": 0.76,
+    "collision_rate": 0.04,
+    "mean_spl": 0.5981663335253162,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1132544,
+    "mean_reward": 67.1650161743164,
+    "success_rate": 0.76,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6041324479058652,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1134592,
+    "mean_reward": 78.31816101074219,
+    "success_rate": 0.8,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6439173618398698,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1136640,
+    "mean_reward": 65.31456756591797,
+    "success_rate": 0.82,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6602490022418579,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1138688,
+    "mean_reward": 93.77919006347656,
+    "success_rate": 0.86,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7108654081542148,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1140736,
+    "mean_reward": 82.06594848632812,
+    "success_rate": 0.86,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7012605454059898,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1142784,
+    "mean_reward": 68.59004211425781,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6907692132521143,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1144832,
+    "mean_reward": 61.2344856262207,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7060116558822911,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1146880,
+    "mean_reward": 65.85276794433594,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.67636307077559,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1148928,
+    "mean_reward": 56.51124954223633,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6453416584286336,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1150976,
+    "mean_reward": 77.7804183959961,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6458249597505207,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1153024,
+    "mean_reward": 73.36627197265625,
+    "success_rate": 0.74,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6298499968857694,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1155072,
+    "mean_reward": 64.79644012451172,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6532365377947609,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1157120,
+    "mean_reward": 93.23394012451172,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6829621794583247,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1159168,
+    "mean_reward": 93.16809844970703,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7038507090434524,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1161216,
+    "mean_reward": 65.3607177734375,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7221961624247578,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1163264,
+    "mean_reward": 93.96234130859375,
+    "success_rate": 0.88,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7493790720326235,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1165312,
+    "mean_reward": 95.4615478515625,
+    "success_rate": 0.92,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7871047419928877,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1167360,
+    "mean_reward": 94.69286346435547,
+    "success_rate": 0.96,
+    "collision_rate": 0.02,
+    "mean_spl": 0.8201445095100693,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1169408,
+    "mean_reward": 93.44412994384766,
+    "success_rate": 0.96,
+    "collision_rate": 0.02,
+    "mean_spl": 0.805690872892736,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1171456,
+    "mean_reward": 75.18112182617188,
+    "success_rate": 0.96,
+    "collision_rate": 0.04,
+    "mean_spl": 0.825765842868901,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1173504,
+    "mean_reward": 60.315731048583984,
+    "success_rate": 0.92,
+    "collision_rate": 0.04,
+    "mean_spl": 0.787801364874473,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1175552,
+    "mean_reward": 81.67745971679688,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7504525167056331,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1177600,
+    "mean_reward": 74.5380630493164,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7095435735808031,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1179648,
+    "mean_reward": 67.45618438720703,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6789204939571224,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1181696,
+    "mean_reward": 78.90460205078125,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6714325690028385,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1183744,
+    "mean_reward": 84.6780776977539,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7116167048969703,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1185792,
+    "mean_reward": 64.94781494140625,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6910396762016032,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1187840,
+    "mean_reward": 71.7885513305664,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6835482508303379,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1189888,
+    "mean_reward": 55.23443603515625,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.680106453107949,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1191936,
+    "mean_reward": 66.24122619628906,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6574997392835097,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1193984,
+    "mean_reward": 59.953369140625,
+    "success_rate": 0.72,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6037544224887972,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1196032,
+    "mean_reward": 74.37763977050781,
+    "success_rate": 0.76,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6260682913923473,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1198080,
+    "mean_reward": 71.4711685180664,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5925437036223918,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1200128,
+    "mean_reward": 50.16969299316406,
+    "success_rate": 0.72,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5621101820330776,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1202176,
+    "mean_reward": 60.9205207824707,
+    "success_rate": 0.72,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5611675487905948,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1204224,
+    "mean_reward": 64.61164855957031,
+    "success_rate": 0.76,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5898839211425014,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1206272,
+    "mean_reward": 83.75540924072266,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6177419005391274,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1208320,
+    "mean_reward": 67.51631927490234,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6400392471911159,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1210368,
+    "mean_reward": 83.01461791992188,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6859765117191511,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1212416,
+    "mean_reward": 69.98397827148438,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6886133729434809,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1214464,
+    "mean_reward": 64.61456298828125,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6971980326337696,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1216512,
+    "mean_reward": 50.433815002441406,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6382657941037734,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1218560,
+    "mean_reward": 80.01959228515625,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6480829345880056,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1220608,
+    "mean_reward": 73.89370727539062,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6424729136749809,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1222656,
+    "mean_reward": 73.9957046508789,
+    "success_rate": 0.76,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6369391068110106,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1224704,
+    "mean_reward": 82.47321319580078,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6686120531427204,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1226752,
+    "mean_reward": 92.09593200683594,
+    "success_rate": 0.82,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6773929091774658,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1228800,
+    "mean_reward": 72.53254699707031,
+    "success_rate": 0.86,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7160901398692243,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1230848,
+    "mean_reward": 38.307857513427734,
+    "success_rate": 0.8,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6666775838550049,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1232896,
+    "mean_reward": 73.13836669921875,
+    "success_rate": 0.82,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6646989238806807,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1234944,
+    "mean_reward": 92.14930725097656,
+    "success_rate": 0.84,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6822664589790804,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1236992,
+    "mean_reward": 83.14811706542969,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6716707708577274,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1239040,
+    "mean_reward": 93.9566421508789,
+    "success_rate": 0.86,
+    "collision_rate": 0.08,
+    "mean_spl": 0.705251325309052,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1241088,
+    "mean_reward": 69.23590850830078,
+    "success_rate": 0.86,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7124974373539772,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1243136,
+    "mean_reward": 86.46977996826172,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7787399258161887,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1245184,
+    "mean_reward": 68.74983978271484,
+    "success_rate": 0.88,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7733796710836682,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1247232,
+    "mean_reward": 49.76804733276367,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7358246418596676,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1249280,
+    "mean_reward": 46.44045639038086,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6957470221860009,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1251328,
+    "mean_reward": 44.77932357788086,
+    "success_rate": 0.72,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6322651624270571,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1253376,
+    "mean_reward": 45.934051513671875,
+    "success_rate": 0.68,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5855147996311562,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1255424,
+    "mean_reward": 77.96395111083984,
+    "success_rate": 0.66,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5338072294803071,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1257472,
+    "mean_reward": 53.78135681152344,
+    "success_rate": 0.64,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5172899104624016,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1259520,
+    "mean_reward": 81.56464385986328,
+    "success_rate": 0.68,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5553369699072743,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1261568,
+    "mean_reward": 83.17271423339844,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6085670890434993,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1263616,
+    "mean_reward": 64.79479217529297,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.670262115907331,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1265664,
+    "mean_reward": 72.41927337646484,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6868558337782907,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1267712,
+    "mean_reward": 44.98453903198242,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6649473169183764,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1269760,
+    "mean_reward": 52.90739059448242,
+    "success_rate": 0.76,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6375122009384351,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1271808,
+    "mean_reward": 61.27006149291992,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6083742232688916,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1273856,
+    "mean_reward": 70.37151336669922,
+    "success_rate": 0.72,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5883023066436309,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1275904,
+    "mean_reward": 56.60051345825195,
+    "success_rate": 0.72,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5818802398684264,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1277952,
+    "mean_reward": 81.34437561035156,
+    "success_rate": 0.72,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5769084215874014,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1280000,
+    "mean_reward": 60.33396530151367,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5773526605038424,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1282048,
+    "mean_reward": 69.47357177734375,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6180191868565189,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1284096,
+    "mean_reward": 64.8896255493164,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6283687697227068,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1286144,
+    "mean_reward": 67.6553726196289,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6493946877415694,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1288192,
+    "mean_reward": 64.3658218383789,
+    "success_rate": 0.72,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6538585661773534,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1290240,
+    "mean_reward": 45.08309555053711,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6499609220904908,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1292288,
+    "mean_reward": 67.64778900146484,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.6014475840490364,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1294336,
+    "mean_reward": 70.22362518310547,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6336202088514743,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1296384,
+    "mean_reward": 49.55070877075195,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.5897058433237121,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1298432,
+    "mean_reward": 61.16621780395508,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6192736441466205,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1300480,
+    "mean_reward": 60.6313362121582,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.6168234421251441,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1302528,
+    "mean_reward": 73.22238159179688,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.6327644264205434,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1304576,
+    "mean_reward": 79.83650207519531,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6247195767599683,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1306624,
+    "mean_reward": 81.97944641113281,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6385452111732394,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1308672,
+    "mean_reward": 64.80049133300781,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6437558765141431,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1310720,
+    "mean_reward": 64.79232788085938,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6549393749388871,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1312768,
+    "mean_reward": 61.435237884521484,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6165838323493135,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1314816,
+    "mean_reward": 74.10993194580078,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.633432023715792,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1316864,
+    "mean_reward": 78.47286987304688,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6315739116604577,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1318912,
+    "mean_reward": 92.40834045410156,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6439218502444075,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1320960,
+    "mean_reward": 93.56197357177734,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6804080766289211,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1323008,
+    "mean_reward": 77.7348403930664,
+    "success_rate": 0.88,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7261943493081873,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1325056,
+    "mean_reward": 92.81146240234375,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7304274238907866,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1327104,
+    "mean_reward": 52.519317626953125,
+    "success_rate": 0.88,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7115449078773974,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1329152,
+    "mean_reward": 57.25291061401367,
+    "success_rate": 0.84,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6832370733119663,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1331200,
+    "mean_reward": 60.362186431884766,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6421728305603522,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1333248,
+    "mean_reward": 80.2137680053711,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6378448978517973,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1335296,
+    "mean_reward": 77.35628509521484,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6392114796759512,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1337344,
+    "mean_reward": 44.868717193603516,
+    "success_rate": 0.7,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5571778833648059,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1339392,
+    "mean_reward": 33.6596794128418,
+    "success_rate": 0.7,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5584919625665818,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1341440,
+    "mean_reward": 73.60252380371094,
+    "success_rate": 0.7,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5330048294110066,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1343488,
+    "mean_reward": 81.02987670898438,
+    "success_rate": 0.76,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5999580829981523,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1345536,
+    "mean_reward": 94.02745819091797,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6280341377857344,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1347584,
+    "mean_reward": 85.24577331542969,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6679341669673698,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1349632,
+    "mean_reward": 75.01897430419922,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7549219697474209,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1351680,
+    "mean_reward": 48.70901107788086,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7254439525066095,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1353728,
+    "mean_reward": 64.98678588867188,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.7048941726574626,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1355776,
+    "mean_reward": 40.536258697509766,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.6151220462176984,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1357824,
+    "mean_reward": 54.255149841308594,
+    "success_rate": 0.6,
+    "collision_rate": 0.4,
+    "mean_spl": 0.5529934785027677,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1359872,
+    "mean_reward": 94.9615478515625,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.6586789139911958,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1361920,
+    "mean_reward": 83.51192474365234,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6958702219295353,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1363968,
+    "mean_reward": 50.139076232910156,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6752300517542861,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1366016,
+    "mean_reward": 56.133331298828125,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6726901768644903,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1368064,
+    "mean_reward": 78.97461700439453,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6891736784854312,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1370112,
+    "mean_reward": 61.49198532104492,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6659607299019886,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1372160,
+    "mean_reward": 31.183406829833984,
+    "success_rate": 0.7,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5878692734755873,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1374208,
+    "mean_reward": 62.15522384643555,
+    "success_rate": 0.68,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5488348224139147,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1376256,
+    "mean_reward": 82.66725158691406,
+    "success_rate": 0.72,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5587237640916308,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1378304,
+    "mean_reward": 93.92951965332031,
+    "success_rate": 0.8,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6340048563863591,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1380352,
+    "mean_reward": 93.32335662841797,
+    "success_rate": 0.8,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6498349673782555,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1382400,
+    "mean_reward": 85.22886657714844,
+    "success_rate": 0.86,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7048922215499096,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1384448,
+    "mean_reward": 69.37879943847656,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7366276964452857,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1386496,
+    "mean_reward": 66.13922882080078,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7322174166703516,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1388544,
+    "mean_reward": 2.2894787788391113,
+    "success_rate": 0.82,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6792445141624509,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1390592,
+    "mean_reward": 55.30830383300781,
+    "success_rate": 0.74,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6232931031430116,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1392640,
+    "mean_reward": 57.64618682861328,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.579382985909415,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1394688,
+    "mean_reward": 68.58032989501953,
+    "success_rate": 0.64,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5416759115314401,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1396736,
+    "mean_reward": 56.482078552246094,
+    "success_rate": 0.62,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5400721721897923,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1398784,
+    "mean_reward": 64.74718475341797,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.5815696646952461,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1400832,
+    "mean_reward": 44.51145553588867,
+    "success_rate": 0.66,
+    "collision_rate": 0.34,
+    "mean_spl": 0.5841888390064836,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1402880,
+    "mean_reward": 21.179086685180664,
+    "success_rate": 0.6,
+    "collision_rate": 0.4,
+    "mean_spl": 0.529702439442217,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1404928,
+    "mean_reward": 53.61513137817383,
+    "success_rate": 0.56,
+    "collision_rate": 0.4,
+    "mean_spl": 0.49104510807694424,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1406976,
+    "mean_reward": 45.83062744140625,
+    "success_rate": 0.56,
+    "collision_rate": 0.36,
+    "mean_spl": 0.47924519650050484,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1409024,
+    "mean_reward": 71.85504150390625,
+    "success_rate": 0.58,
+    "collision_rate": 0.32,
+    "mean_spl": 0.48200076143023934,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1411072,
+    "mean_reward": 52.06962966918945,
+    "success_rate": 0.58,
+    "collision_rate": 0.32,
+    "mean_spl": 0.482687316523464,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1413120,
+    "mean_reward": 75.62433624267578,
+    "success_rate": 0.62,
+    "collision_rate": 0.26,
+    "mean_spl": 0.496296704391437,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1415168,
+    "mean_reward": 35.25474548339844,
+    "success_rate": 0.64,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5112933524523542,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1417216,
+    "mean_reward": 79.92097473144531,
+    "success_rate": 0.68,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5594208647745293,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1419264,
+    "mean_reward": 78.83453369140625,
+    "success_rate": 0.72,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6009190890303799,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1421312,
+    "mean_reward": 83.58599853515625,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6329526517062527,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1423360,
+    "mean_reward": 71.289794921875,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6444061504125876,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1425408,
+    "mean_reward": 18.224010467529297,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6403850038979833,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1427456,
+    "mean_reward": 52.226409912109375,
+    "success_rate": 0.76,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6538194387934897,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1429504,
+    "mean_reward": 67.44207000732422,
+    "success_rate": 0.74,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6331669269576576,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1431552,
+    "mean_reward": 79.13821411132812,
+    "success_rate": 0.74,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6193234797672459,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1433600,
+    "mean_reward": 93.30116271972656,
+    "success_rate": 0.76,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6154919925017239,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1435648,
+    "mean_reward": 92.96414184570312,
+    "success_rate": 0.78,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6356096651731146,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1437696,
+    "mean_reward": 85.09364318847656,
+    "success_rate": 0.88,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7252138790700138,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1439744,
+    "mean_reward": 61.2692985534668,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7309309978717375,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1441792,
+    "mean_reward": 62.81106948852539,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7091386015948367,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1443840,
+    "mean_reward": 31.728240966796875,
+    "success_rate": 0.8,
+    "collision_rate": 0.12,
+    "mean_spl": 0.66536765235211,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1445888,
+    "mean_reward": 79.13114929199219,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6431315317974072,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1447936,
+    "mean_reward": 60.06205368041992,
+    "success_rate": 0.74,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5959021619882311,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1449984,
+    "mean_reward": 65.13455200195312,
+    "success_rate": 0.72,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5718504605408802,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1452032,
+    "mean_reward": 60.6834716796875,
+    "success_rate": 0.7,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5387632474892416,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1454080,
+    "mean_reward": 28.613475799560547,
+    "success_rate": 0.66,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5100632048368662,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1456128,
+    "mean_reward": 94.58350372314453,
+    "success_rate": 0.76,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6028948485147173,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1458176,
+    "mean_reward": 61.73465347290039,
+    "success_rate": 0.76,
+    "collision_rate": 0.06,
+    "mean_spl": 0.5970480294758678,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1460224,
+    "mean_reward": 59.732421875,
+    "success_rate": 0.74,
+    "collision_rate": 0.08,
+    "mean_spl": 0.5988033797875755,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1462272,
+    "mean_reward": 74.92920684814453,
+    "success_rate": 0.76,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6470589887340233,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1464320,
+    "mean_reward": 81.88394165039062,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6875550065655779,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1466368,
+    "mean_reward": 78.96430969238281,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.713762621659585,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1468416,
+    "mean_reward": 94.41584777832031,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7295318842396047,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1470464,
+    "mean_reward": 76.71223449707031,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7646726174296431,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1472512,
+    "mean_reward": 50.403953552246094,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7133836077256097,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1474560,
+    "mean_reward": 65.04312133789062,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7207285213561359,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1476608,
+    "mean_reward": 64.26119995117188,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6795497698586668,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1478656,
+    "mean_reward": 39.605079650878906,
+    "success_rate": 0.7,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5906033415270311,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1480704,
+    "mean_reward": 47.498138427734375,
+    "success_rate": 0.66,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5501238323600013,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1482752,
+    "mean_reward": 38.160316467285156,
+    "success_rate": 0.62,
+    "collision_rate": 0.24,
+    "mean_spl": 0.50559397922383,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1484800,
+    "mean_reward": 66.58607482910156,
+    "success_rate": 0.64,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5424032511008147,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1486848,
+    "mean_reward": 82.71791076660156,
+    "success_rate": 0.66,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5371853212522288,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1488896,
+    "mean_reward": 81.17056274414062,
+    "success_rate": 0.7,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5725433324127213,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1490944,
+    "mean_reward": 69.8846206665039,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.59241473666266,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1492992,
+    "mean_reward": 94.26628875732422,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6745798148289119,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1495040,
+    "mean_reward": 77.2989730834961,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6989007886824765,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1497088,
+    "mean_reward": 77.00047302246094,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7350732316466391,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1499136,
+    "mean_reward": 80.20726013183594,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7792825005293363,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1501184,
+    "mean_reward": 93.18116760253906,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7872635909531469,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1503232,
+    "mean_reward": 49.215816497802734,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7103368196868776,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1505280,
+    "mean_reward": 19.627071380615234,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6620703607279144,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1507328,
+    "mean_reward": 39.388484954833984,
+    "success_rate": 0.7,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5936075686211557,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1509376,
+    "mean_reward": 92.06368255615234,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5835475960435619,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1511424,
+    "mean_reward": 85.03992462158203,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.563373982920689,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1513472,
+    "mean_reward": 53.25997543334961,
+    "success_rate": 0.7,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5289127367158126,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1515520,
+    "mean_reward": 56.14015197753906,
+    "success_rate": 0.7,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5332137649783062,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1517568,
+    "mean_reward": 57.641807556152344,
+    "success_rate": 0.72,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5402169383608194,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1519616,
+    "mean_reward": 76.66462707519531,
+    "success_rate": 0.8,
+    "collision_rate": 0.12,
+    "mean_spl": 0.598553475285378,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1521664,
+    "mean_reward": 93.5882797241211,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6511454870124496,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1523712,
+    "mean_reward": 61.87483596801758,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6313812065876617,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1525760,
+    "mean_reward": 64.90802001953125,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6210940543364009,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1527808,
+    "mean_reward": 65.48680877685547,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.629740851130069,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1529856,
+    "mean_reward": 39.44761276245117,
+    "success_rate": 0.72,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6026209935587847,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1531904,
+    "mean_reward": 28.330699920654297,
+    "success_rate": 0.64,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5309347129731958,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1533952,
+    "mean_reward": 92.65132141113281,
+    "success_rate": 0.68,
+    "collision_rate": 0.26,
+    "mean_spl": 0.565614902040638,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1536000,
+    "mean_reward": 65.57241821289062,
+    "success_rate": 0.64,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5311653255180839,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1538048,
+    "mean_reward": 49.14971160888672,
+    "success_rate": 0.64,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5305011130826186,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1540096,
+    "mean_reward": 81.51011657714844,
+    "success_rate": 0.7,
+    "collision_rate": 0.26,
+    "mean_spl": 0.58755573903296,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1542144,
+    "mean_reward": 71.75547790527344,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6487289349057863,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1544192,
+    "mean_reward": 69.87783813476562,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6534587830882385,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1546240,
+    "mean_reward": 82.73224639892578,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6856291073833927,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1548288,
+    "mean_reward": 85.0327377319336,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7292153728901637,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1550336,
+    "mean_reward": 93.54962921142578,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7486415400859282,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1552384,
+    "mean_reward": 65.93186950683594,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7351788794942828,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1554432,
+    "mean_reward": 21.997310638427734,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6370547197711749,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1556480,
+    "mean_reward": -19.089561462402344,
+    "success_rate": 0.72,
+    "collision_rate": 0.16,
+    "mean_spl": 0.58788016078122,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1558528,
+    "mean_reward": 39.63309860229492,
+    "success_rate": 0.66,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5433994457424408,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1560576,
+    "mean_reward": 73.5860366821289,
+    "success_rate": 0.66,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5263932300057887,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1562624,
+    "mean_reward": 64.53005981445312,
+    "success_rate": 0.6,
+    "collision_rate": 0.22,
+    "mean_spl": 0.4811341049133142,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1564672,
+    "mean_reward": 85.99583435058594,
+    "success_rate": 0.62,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5084093458874804,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1566720,
+    "mean_reward": 92.42369079589844,
+    "success_rate": 0.76,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6007117172593068,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1568768,
+    "mean_reward": 77.05335235595703,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6699776749684244,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1570816,
+    "mean_reward": 84.55136108398438,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.694830202200798,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1572864,
+    "mean_reward": 72.0918960571289,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6930084566440853,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1574912,
+    "mean_reward": 85.73883819580078,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7108673018170903,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1576960,
+    "mean_reward": 81.97174072265625,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7269454277461271,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1579008,
+    "mean_reward": 82.08751678466797,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7360151233389587,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1581056,
+    "mean_reward": 82.72418975830078,
+    "success_rate": 0.88,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7509177665856762,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1583104,
+    "mean_reward": 95.16357421875,
+    "success_rate": 0.92,
+    "collision_rate": 0.08,
+    "mean_spl": 0.8134497647812589,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1585152,
+    "mean_reward": 69.87129211425781,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.808255790971829,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1587200,
+    "mean_reward": 81.7833023071289,
+    "success_rate": 0.9,
+    "collision_rate": 0.1,
+    "mean_spl": 0.8062122788984755,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1589248,
+    "mean_reward": 94.01931762695312,
+    "success_rate": 0.92,
+    "collision_rate": 0.08,
+    "mean_spl": 0.8198491389433237,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1591296,
+    "mean_reward": 81.17720794677734,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7939239588232673,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1593344,
+    "mean_reward": 36.7937126159668,
+    "success_rate": 0.86,
+    "collision_rate": 0.08,
+    "mean_spl": 0.756720054105119,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1595392,
+    "mean_reward": 30.197023391723633,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6677499803002805,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1597440,
+    "mean_reward": 94.67510986328125,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6659715132390671,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1599488,
+    "mean_reward": 93.221435546875,
+    "success_rate": 0.84,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6815144149061482,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1601536,
+    "mean_reward": 93.18939208984375,
+    "success_rate": 0.84,
+    "collision_rate": 0.06,
+    "mean_spl": 0.665127904179147,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1603584,
+    "mean_reward": 85.51895904541016,
+    "success_rate": 0.84,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6761982478046042,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1605632,
+    "mean_reward": 93.42292022705078,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7299029947545344,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1607680,
+    "mean_reward": 93.34314727783203,
+    "success_rate": 0.98,
+    "collision_rate": 0.02,
+    "mean_spl": 0.7977527335058788,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1609728,
+    "mean_reward": 55.75978469848633,
+    "success_rate": 0.94,
+    "collision_rate": 0.02,
+    "mean_spl": 0.7613368985410587,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1611776,
+    "mean_reward": 76.71041870117188,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.744435449012167,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1613824,
+    "mean_reward": 65.53559875488281,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7099380148514305,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1615872,
+    "mean_reward": 81.26039123535156,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6984953381737482,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1617920,
+    "mean_reward": 93.46080017089844,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.706830273328255,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1619968,
+    "mean_reward": 71.4611587524414,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6964351514456563,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1622016,
+    "mean_reward": 69.0242919921875,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7177762775284801,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1624064,
+    "mean_reward": 67.175048828125,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6980904397382139,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1626112,
+    "mean_reward": 63.199405670166016,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6944922633761162,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1628160,
+    "mean_reward": 94.71028137207031,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7055491947461654,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1630208,
+    "mean_reward": 86.24359893798828,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7307523341302273,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1632256,
+    "mean_reward": 92.22932434082031,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7599343460904874,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1634304,
+    "mean_reward": 50.17632293701172,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7210992585408442,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1636352,
+    "mean_reward": 54.17240524291992,
+    "success_rate": 0.86,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7219717699221307,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1638400,
+    "mean_reward": 34.518497467041016,
+    "success_rate": 0.82,
+    "collision_rate": 0.06,
+    "mean_spl": 0.681968816611346,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1640448,
+    "mean_reward": 93.42960357666016,
+    "success_rate": 0.82,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6605600960085745,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1642496,
+    "mean_reward": 63.48406219482422,
+    "success_rate": 0.78,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6414565970263336,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1644544,
+    "mean_reward": 57.16799545288086,
+    "success_rate": 0.74,
+    "collision_rate": 0.08,
+    "mean_spl": 0.5846525580616672,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1646592,
+    "mean_reward": 82.02136993408203,
+    "success_rate": 0.74,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6038066103137159,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1648640,
+    "mean_reward": 94.65570831298828,
+    "success_rate": 0.82,
+    "collision_rate": 0.04,
+    "mean_spl": 0.6824768749719192,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1650688,
+    "mean_reward": 45.96790313720703,
+    "success_rate": 0.82,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6821782613325484,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1652736,
+    "mean_reward": 64.86266326904297,
+    "success_rate": 0.76,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6346160465649073,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1654784,
+    "mean_reward": 52.261051177978516,
+    "success_rate": 0.76,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6423230405471603,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1656832,
+    "mean_reward": 3.454516887664795,
+    "success_rate": 0.74,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6285342059471337,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1658880,
+    "mean_reward": 69.79287719726562,
+    "success_rate": 0.72,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5950667156811776,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1660928,
+    "mean_reward": 61.05084991455078,
+    "success_rate": 0.66,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5209459190324898,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1662976,
+    "mean_reward": 78.65689849853516,
+    "success_rate": 0.7,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5480125615947262,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1665024,
+    "mean_reward": 45.66135787963867,
+    "success_rate": 0.7,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5353962779417007,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1667072,
+    "mean_reward": 47.972599029541016,
+    "success_rate": 0.68,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5180696187017004,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1669120,
+    "mean_reward": 24.991748809814453,
+    "success_rate": 0.64,
+    "collision_rate": 0.2,
+    "mean_spl": 0.48601588890365943,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1671168,
+    "mean_reward": 61.270263671875,
+    "success_rate": 0.64,
+    "collision_rate": 0.2,
+    "mean_spl": 0.48530482268126185,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1673216,
+    "mean_reward": 94.50300598144531,
+    "success_rate": 0.7,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5535518941246179,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1675264,
+    "mean_reward": 75.40864562988281,
+    "success_rate": 0.7,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5778747687432446,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1677312,
+    "mean_reward": 65.89268493652344,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6125124054569676,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1679360,
+    "mean_reward": 80.09949493408203,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6488392085537198,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1681408,
+    "mean_reward": 33.708099365234375,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6509291546496478,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1683456,
+    "mean_reward": 92.27257537841797,
+    "success_rate": 0.8,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6677308089621934,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1685504,
+    "mean_reward": 56.89191436767578,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6079484763903995,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1687552,
+    "mean_reward": 84.4320068359375,
+    "success_rate": 0.76,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6060735804082664,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1689600,
+    "mean_reward": 45.317962646484375,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6032879906861497,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1691648,
+    "mean_reward": 89.25975036621094,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5779991712893076,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1693696,
+    "mean_reward": 65.24546813964844,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6097166591931666,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1695744,
+    "mean_reward": 23.661739349365234,
+    "success_rate": 0.72,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5635960940656246,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1697792,
+    "mean_reward": 80.26663970947266,
+    "success_rate": 0.76,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6011026432212195,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1699840,
+    "mean_reward": 74.96115112304688,
+    "success_rate": 0.74,
+    "collision_rate": 0.12,
+    "mean_spl": 0.5844282626587914,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1701888,
+    "mean_reward": 73.57624053955078,
+    "success_rate": 0.76,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6043589125296269,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1703936,
+    "mean_reward": 67.8118896484375,
+    "success_rate": 0.76,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6406417764023944,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1705984,
+    "mean_reward": 61.14982223510742,
+    "success_rate": 0.76,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6400425581868875,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1708032,
+    "mean_reward": 76.65577697753906,
+    "success_rate": 0.8,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6642492612581796,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1710080,
+    "mean_reward": 81.86116790771484,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6756810268046547,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1712128,
+    "mean_reward": 94.59680938720703,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7084123666654204,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1714176,
+    "mean_reward": 80.7562484741211,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7133458988868685,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1716224,
+    "mean_reward": 82.86714172363281,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7540340213167132,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1718272,
+    "mean_reward": 79.40904998779297,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7838256604290355,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1720320,
+    "mean_reward": 78.05919647216797,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7561029975698211,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1722368,
+    "mean_reward": 84.36003112792969,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7646892195843372,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1724416,
+    "mean_reward": 80.10895538330078,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7617220605508637,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1726464,
+    "mean_reward": 87.50169372558594,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7779797147505272,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1728512,
+    "mean_reward": 94.00753784179688,
+    "success_rate": 0.92,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7967553782292243,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1730560,
+    "mean_reward": 83.1563949584961,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7875663584647161,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1732608,
+    "mean_reward": 64.73908996582031,
+    "success_rate": 0.88,
+    "collision_rate": 0.1,
+    "mean_spl": 0.759080527397526,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1734656,
+    "mean_reward": 27.209423065185547,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6763651096127368,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1736704,
+    "mean_reward": 61.47169876098633,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6377506541684539,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1738752,
+    "mean_reward": 93.74420928955078,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.6238935484338576,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1740800,
+    "mean_reward": 65.017333984375,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.606781232665569,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1742848,
+    "mean_reward": 84.93627166748047,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6607819034517334,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1744896,
+    "mean_reward": 76.97685241699219,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7250019984106686,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1746944,
+    "mean_reward": 80.89955139160156,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.73914502177271,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1748992,
+    "mean_reward": 61.36581039428711,
+    "success_rate": 0.82,
+    "collision_rate": 0.16,
+    "mean_spl": 0.7053040452546022,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1751040,
+    "mean_reward": 45.70078659057617,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6759175781838331,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1753088,
+    "mean_reward": 72.24943542480469,
+    "success_rate": 0.76,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6331623348174317,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1755136,
+    "mean_reward": 79.02889251708984,
+    "success_rate": 0.74,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6021134205387687,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1757184,
+    "mean_reward": 51.018524169921875,
+    "success_rate": 0.72,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5802453959851852,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1759232,
+    "mean_reward": 83.97587585449219,
+    "success_rate": 0.74,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5954394422686143,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1761280,
+    "mean_reward": 83.73147583007812,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.663267249131387,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1763328,
+    "mean_reward": 94.03677368164062,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7067840722328061,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1765376,
+    "mean_reward": 85.28437805175781,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7463208054505508,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1767424,
+    "mean_reward": 38.24226760864258,
+    "success_rate": 0.86,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7638241032670325,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1769472,
+    "mean_reward": 39.578521728515625,
+    "success_rate": 0.82,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7118687136693609,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1771520,
+    "mean_reward": 20.80158805847168,
+    "success_rate": 0.74,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6316869420606486,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1773568,
+    "mean_reward": 29.858367919921875,
+    "success_rate": 0.68,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5842193656459969,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1775616,
+    "mean_reward": 77.12953186035156,
+    "success_rate": 0.66,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5585748635122736,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1777664,
+    "mean_reward": 65.89242553710938,
+    "success_rate": 0.62,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5058264514855794,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1779712,
+    "mean_reward": 93.3364486694336,
+    "success_rate": 0.64,
+    "collision_rate": 0.12,
+    "mean_spl": 0.503382368319184,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1781760,
+    "mean_reward": 94.34046936035156,
+    "success_rate": 0.72,
+    "collision_rate": 0.06,
+    "mean_spl": 0.5864570449961201,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1783808,
+    "mean_reward": 67.96067810058594,
+    "success_rate": 0.82,
+    "collision_rate": 0.06,
+    "mean_spl": 0.6969157427418321,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1785856,
+    "mean_reward": 64.0798568725586,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7071571557504344,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1787904,
+    "mean_reward": 44.35859680175781,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6836731706871261,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1789952,
+    "mean_reward": -21.659015655517578,
+    "success_rate": 0.72,
+    "collision_rate": 0.16,
+    "mean_spl": 0.627588999604074,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1792000,
+    "mean_reward": 11.905501365661621,
+    "success_rate": 0.62,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5348782589115791,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1794048,
+    "mean_reward": 77.01637268066406,
+    "success_rate": 0.6,
+    "collision_rate": 0.22,
+    "mean_spl": 0.49897908730267554,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1796096,
+    "mean_reward": 66.29396057128906,
+    "success_rate": 0.62,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5051810561823724,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1798144,
+    "mean_reward": 75.68907165527344,
+    "success_rate": 0.62,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5040286120675244,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1800192,
+    "mean_reward": 77.3470687866211,
+    "success_rate": 0.66,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5487075978610655,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1802240,
+    "mean_reward": 75.80958557128906,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6785330411483449,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1804288,
+    "mean_reward": 75.04197692871094,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7170571155252768,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1806336,
+    "mean_reward": 82.00733184814453,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7253733623115558,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1808384,
+    "mean_reward": 93.67871856689453,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7419822564471441,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1810432,
+    "mean_reward": 27.02927017211914,
+    "success_rate": 0.82,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6956325181488279,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1812480,
+    "mean_reward": 59.37166213989258,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6510671716448546,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1814528,
+    "mean_reward": 21.295114517211914,
+    "success_rate": 0.74,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6100147996769938,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1816576,
+    "mean_reward": 51.88721466064453,
+    "success_rate": 0.7,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5681492607980441,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1818624,
+    "mean_reward": 69.53345489501953,
+    "success_rate": 0.7,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5586309533950439,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1820672,
+    "mean_reward": 72.86415100097656,
+    "success_rate": 0.68,
+    "collision_rate": 0.16,
+    "mean_spl": 0.5663504887057772,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1822720,
+    "mean_reward": 45.13622283935547,
+    "success_rate": 0.66,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5583244553292162,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1824768,
+    "mean_reward": 53.15920639038086,
+    "success_rate": 0.66,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5552187919177678,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1826816,
+    "mean_reward": 77.19554138183594,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.5647215084778631,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1828864,
+    "mean_reward": 60.4563102722168,
+    "success_rate": 0.68,
+    "collision_rate": 0.32,
+    "mean_spl": 0.547085030605281,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1830912,
+    "mean_reward": 73.08760070800781,
+    "success_rate": 0.7,
+    "collision_rate": 0.3,
+    "mean_spl": 0.5604159987422174,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1832960,
+    "mean_reward": 52.057838439941406,
+    "success_rate": 0.72,
+    "collision_rate": 0.28,
+    "mean_spl": 0.5794943780962328,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1835008,
+    "mean_reward": 93.77915954589844,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.625219210688392,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1837056,
+    "mean_reward": 83.72832489013672,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6873786751883582,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1839104,
+    "mean_reward": 64.9980239868164,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.64834732751505,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1841152,
+    "mean_reward": 62.05888748168945,
+    "success_rate": 0.8,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6627769872491065,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1843200,
+    "mean_reward": 94.433837890625,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7220297608616513,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1845248,
+    "mean_reward": 74.99951934814453,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7127798781947128,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1847296,
+    "mean_reward": 94.03565979003906,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7193303601819627,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1849344,
+    "mean_reward": 80.95864868164062,
+    "success_rate": 0.88,
+    "collision_rate": 0.08,
+    "mean_spl": 0.742429912345072,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1851392,
+    "mean_reward": 74.323974609375,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7625102698114047,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1853440,
+    "mean_reward": 82.77175903320312,
+    "success_rate": 0.9,
+    "collision_rate": 0.04,
+    "mean_spl": 0.7524974191848008,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1855488,
+    "mean_reward": 74.97299194335938,
+    "success_rate": 0.88,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7296665026175486,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1857536,
+    "mean_reward": 79.75668334960938,
+    "success_rate": 0.88,
+    "collision_rate": 0.04,
+    "mean_spl": 0.7175551171874334,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1859584,
+    "mean_reward": 93.92162322998047,
+    "success_rate": 0.88,
+    "collision_rate": 0.04,
+    "mean_spl": 0.7250985107225142,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1861632,
+    "mean_reward": 95.39884948730469,
+    "success_rate": 0.92,
+    "collision_rate": 0.04,
+    "mean_spl": 0.7718946291729335,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1863680,
+    "mean_reward": 80.94632720947266,
+    "success_rate": 0.92,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7630215613546664,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1865728,
+    "mean_reward": 73.97919464111328,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7446754893130348,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1867776,
+    "mean_reward": 76.29911041259766,
+    "success_rate": 0.9,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7589099493440912,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1869824,
+    "mean_reward": 94.71668243408203,
+    "success_rate": 0.92,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7822837972193885,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1871872,
+    "mean_reward": 39.874942779541016,
+    "success_rate": 0.86,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7282135309616905,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1873920,
+    "mean_reward": 63.43696212768555,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.67962361775197,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1875968,
+    "mean_reward": 94.50331115722656,
+    "success_rate": 0.84,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7147251613152327,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1878016,
+    "mean_reward": 84.54253387451172,
+    "success_rate": 0.84,
+    "collision_rate": 0.06,
+    "mean_spl": 0.7242355948319252,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1880064,
+    "mean_reward": 39.88504409790039,
+    "success_rate": 0.74,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6280823907831647,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1882112,
+    "mean_reward": 45.01448059082031,
+    "success_rate": 0.74,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6272965057920882,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1884160,
+    "mean_reward": 61.45589065551758,
+    "success_rate": 0.72,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6115695254066473,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1886208,
+    "mean_reward": 69.74453735351562,
+    "success_rate": 0.68,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5693169155325761,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1888256,
+    "mean_reward": 78.3349609375,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5560866914315141,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1890304,
+    "mean_reward": 57.75905990600586,
+    "success_rate": 0.7,
+    "collision_rate": 0.22,
+    "mean_spl": 0.574870015458245,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1892352,
+    "mean_reward": 61.571861267089844,
+    "success_rate": 0.72,
+    "collision_rate": 0.18,
+    "mean_spl": 0.5779102084614476,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1894400,
+    "mean_reward": 65.91587829589844,
+    "success_rate": 0.74,
+    "collision_rate": 0.14,
+    "mean_spl": 0.5891043186462187,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1896448,
+    "mean_reward": 83.88902282714844,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6366545243182998,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1898496,
+    "mean_reward": 59.07543182373047,
+    "success_rate": 0.72,
+    "collision_rate": 0.18,
+    "mean_spl": 0.593927141635985,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1900544,
+    "mean_reward": 66.10324096679688,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6313616040390354,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1902592,
+    "mean_reward": 75.83486938476562,
+    "success_rate": 0.78,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6678935375068591,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1904640,
+    "mean_reward": 75.55321502685547,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6588472349984607,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1906688,
+    "mean_reward": 94.72377014160156,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.7081044564166504,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1908736,
+    "mean_reward": 74.5893325805664,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7450211857017055,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1910784,
+    "mean_reward": 66.58955383300781,
+    "success_rate": 0.84,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7365781581153893,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1912832,
+    "mean_reward": 54.79976272583008,
+    "success_rate": 0.82,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7058426490517731,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1914880,
+    "mean_reward": 37.70024490356445,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.671176528700955,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1916928,
+    "mean_reward": 79.87724304199219,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6340995566786155,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1918976,
+    "mean_reward": 91.83380889892578,
+    "success_rate": 0.78,
+    "collision_rate": 0.12,
+    "mean_spl": 0.6074300264272697,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1921024,
+    "mean_reward": 81.95661163330078,
+    "success_rate": 0.8,
+    "collision_rate": 0.1,
+    "mean_spl": 0.6278051803605265,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1923072,
+    "mean_reward": 94.8492202758789,
+    "success_rate": 0.82,
+    "collision_rate": 0.08,
+    "mean_spl": 0.6400278011553016,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1925120,
+    "mean_reward": 81.91837310791016,
+    "success_rate": 0.88,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7087437950523404,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1927168,
+    "mean_reward": 69.6510238647461,
+    "success_rate": 0.92,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7535541477569566,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1929216,
+    "mean_reward": 65.00117492675781,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7205369133467144,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1931264,
+    "mean_reward": 61.65665054321289,
+    "success_rate": 0.8,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6934139613735669,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1933312,
+    "mean_reward": 72.93828582763672,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6583454764269395,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1935360,
+    "mean_reward": 83.1188735961914,
+    "success_rate": 0.76,
+    "collision_rate": 0.24,
+    "mean_spl": 0.6326484629680135,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1937408,
+    "mean_reward": 64.08826446533203,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6609675920028255,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1939456,
+    "mean_reward": 84.38880920410156,
+    "success_rate": 0.82,
+    "collision_rate": 0.18,
+    "mean_spl": 0.7031714619107662,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1941504,
+    "mean_reward": 36.75850296020508,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6595920221736874,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1943552,
+    "mean_reward": 80.73359680175781,
+    "success_rate": 0.78,
+    "collision_rate": 0.22,
+    "mean_spl": 0.6458443793771756,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1945600,
+    "mean_reward": 93.93447875976562,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6912613984477269,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1947648,
+    "mean_reward": 94.28785705566406,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7135642218440026,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1949696,
+    "mean_reward": 71.79676818847656,
+    "success_rate": 0.86,
+    "collision_rate": 0.14,
+    "mean_spl": 0.7158208575307218,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1951744,
+    "mean_reward": 65.65106201171875,
+    "success_rate": 0.84,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6854476947020934,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1953792,
+    "mean_reward": 81.4865493774414,
+    "success_rate": 0.9,
+    "collision_rate": 0.08,
+    "mean_spl": 0.7522190923956004,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1955840,
+    "mean_reward": 68.39555358886719,
+    "success_rate": 0.86,
+    "collision_rate": 0.12,
+    "mean_spl": 0.7052440324987205,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1957888,
+    "mean_reward": 76.86556243896484,
+    "success_rate": 0.84,
+    "collision_rate": 0.12,
+    "mean_spl": 0.680980418050776,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1959936,
+    "mean_reward": 75.31704711914062,
+    "success_rate": 0.8,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6627006761157141,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1961984,
+    "mean_reward": 83.82504272460938,
+    "success_rate": 0.84,
+    "collision_rate": 0.1,
+    "mean_spl": 0.7024090146568368,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1964032,
+    "mean_reward": 39.31746292114258,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6565588849374762,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1966080,
+    "mean_reward": 60.49908447265625,
+    "success_rate": 0.76,
+    "collision_rate": 0.2,
+    "mean_spl": 0.6320170996116533,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1968128,
+    "mean_reward": 10.683059692382812,
+    "success_rate": 0.66,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5397196510620555,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1970176,
+    "mean_reward": 41.7123908996582,
+    "success_rate": 0.66,
+    "collision_rate": 0.26,
+    "mean_spl": 0.5301243872531426,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1972224,
+    "mean_reward": 92.37342834472656,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5217332588913289,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1974272,
+    "mean_reward": 45.276371002197266,
+    "success_rate": 0.6,
+    "collision_rate": 0.3,
+    "mean_spl": 0.4486610450534784,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1976320,
+    "mean_reward": 71.49090576171875,
+    "success_rate": 0.64,
+    "collision_rate": 0.24,
+    "mean_spl": 0.4727448037704747,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1978368,
+    "mean_reward": 51.587135314941406,
+    "success_rate": 0.62,
+    "collision_rate": 0.26,
+    "mean_spl": 0.45382480826111177,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1980416,
+    "mean_reward": 94.36764526367188,
+    "success_rate": 0.76,
+    "collision_rate": 0.18,
+    "mean_spl": 0.569670157328034,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1982464,
+    "mean_reward": 35.8715934753418,
+    "success_rate": 0.68,
+    "collision_rate": 0.24,
+    "mean_spl": 0.5538905950189759,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1984512,
+    "mean_reward": 65.27153778076172,
+    "success_rate": 0.68,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5496806679787352,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1986560,
+    "mean_reward": 93.33609771728516,
+    "success_rate": 0.76,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6167137872720887,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1988608,
+    "mean_reward": 72.10871887207031,
+    "success_rate": 0.78,
+    "collision_rate": 0.14,
+    "mean_spl": 0.6504079660653062,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1990656,
+    "mean_reward": 34.96339416503906,
+    "success_rate": 0.7,
+    "collision_rate": 0.2,
+    "mean_spl": 0.5846821091288317,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1992704,
+    "mean_reward": 61.8065185546875,
+    "success_rate": 0.7,
+    "collision_rate": 0.22,
+    "mean_spl": 0.5813800384435662,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1994752,
+    "mean_reward": 94.45831298828125,
+    "success_rate": 0.78,
+    "collision_rate": 0.16,
+    "mean_spl": 0.6410462687565389,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1996800,
+    "mean_reward": 83.70050811767578,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6710559676983388,
+    "epistemic_uncertainty": 0.0
+  },
+  {
+    "step": 1998848,
+    "mean_reward": 74.45156860351562,
+    "success_rate": 0.78,
+    "collision_rate": 0.18,
+    "mean_spl": 0.6679471439829365,
+    "epistemic_uncertainty": 0.0
+  }
+]

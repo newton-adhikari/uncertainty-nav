@@ -1,0 +1,20 @@
+{
+  "policy": "lstm",
+  "env": "A",
+  "n_episodes": 200,
+  "n_seeds": 5,
+  "success_rate": 0.625,
+  "success_rate_std": 0.1140175425099138,
+  "collision_rate": 0.37500000000000006,
+  "collision_rate_std": 0.1140175425099138,
+  "timeout_rate": 0.0,
+  "timeout_rate_std": 0.0,
+  "mean_spl": 0.613447311155905,
+  "mean_spl_std": 0.11079915772741925,
+  "mean_reward": 54.859677550562665,
+  "mean_path_length": 3.6940707947469225,
+  "mean_steps": 145.33,
+  "mean_uncertainty": 0.0,
+  "std_uncertainty": 0.0,
+  "mean_cautious_ratio": 0.0
+}

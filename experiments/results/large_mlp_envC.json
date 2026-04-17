@@ -1,0 +1,20 @@
+{
+  "policy": "large_mlp",
+  "env": "C",
+  "n_episodes": 200,
+  "n_seeds": 5,
+  "success_rate": 0.905,
+  "success_rate_std": 0.018708286933869726,
+  "collision_rate": 0.095,
+  "collision_rate_std": 0.01870828693386971,
+  "timeout_rate": 0.0,
+  "timeout_rate_std": 0.0,
+  "mean_spl": 0.894605314288982,
+  "mean_spl_std": 0.017733563827588197,
+  "mean_reward": 85.12372969378559,
+  "mean_path_length": 4.41637704621166,
+  "mean_steps": 171.15,
+  "mean_uncertainty": 0.0,
+  "std_uncertainty": 0.0,
+  "mean_cautious_ratio": 0.0
+}
