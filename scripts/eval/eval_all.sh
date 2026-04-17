@@ -27,6 +27,10 @@ for method in vanilla lstm gru large_mlp; do
 done
 
 echo ""
+echo "Running ablations..."
+python3 scripts/ablation/run_ablations.py
+
+echo ""
 echo "Generating plots..."
 python3 scripts/eval/plot_results.py
 
