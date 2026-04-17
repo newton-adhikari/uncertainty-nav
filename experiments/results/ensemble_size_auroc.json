@@ -1,0 +1,47 @@
+{
+  "N=1": {
+    "success_rate": 0.376,
+    "collision_rate": 0.624,
+    "timeout_rate": 0.0,
+    "mean_uncertainty": 0.0,
+    "auroc": 0.5,
+    "ece": 0.624,
+    "n_episodes": 500
+  },
+  "N=2": {
+    "success_rate": 0.364,
+    "collision_rate": 0.636,
+    "timeout_rate": 0.0,
+    "mean_uncertainty": 0.35720929165651943,
+    "auroc": 0.7476674269127099,
+    "ece": 0.47846380552473244,
+    "n_episodes": 500
+  },
+  "N=3": {
+    "success_rate": 0.346,
+    "collision_rate": 0.654,
+    "timeout_rate": 0.0,
+    "mean_uncertainty": 0.3009599809329235,
+    "auroc": 0.804405083876898,
+    "ece": 0.5129441547175863,
+    "n_episodes": 500
+  },
+  "N=5": {
+    "success_rate": 0.336,
+    "collision_rate": 0.664,
+    "timeout_rate": 0.0,
+    "mean_uncertainty": 0.4858473690942199,
+    "auroc": 0.888088066551922,
+    "ece": 0.5090749310324125,
+    "n_episodes": 500
+  },
+  "N=10": {
+    "success_rate": 0.35,
+    "collision_rate": 0.64,
+    "timeout_rate": 0.01,
+    "mean_uncertainty": 1.0189882885620212,
+    "auroc": 0.7921054945054945,
+    "ece": 0.3943559229688035,
+    "n_episodes": 500
+  }
+}

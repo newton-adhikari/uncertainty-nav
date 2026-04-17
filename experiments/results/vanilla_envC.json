@@ -1,0 +1,20 @@
+{
+  "policy": "vanilla",
+  "env": "C",
+  "n_episodes": 200,
+  "n_seeds": 5,
+  "success_rate": 0.865,
+  "success_rate_std": 0.025495097567963948,
+  "collision_rate": 0.135,
+  "collision_rate_std": 0.02549509756796392,
+  "timeout_rate": 0.0,
+  "timeout_rate_std": 0.0,
+  "mean_spl": 0.865,
+  "mean_spl_std": 0.025495097567963948,
+  "mean_reward": 80.988187656596,
+  "mean_path_length": 4.213135420499157,
+  "mean_steps": 165.22,
+  "mean_uncertainty": 0.0,
+  "std_uncertainty": 0.0,
+  "mean_cautious_ratio": 0.0
+}

@@ -1,0 +1,29 @@
+{
+  "ensemble_5": {
+    "success_rate": 0.366,
+    "success_rate_std": 0.0553534100123922,
+    "success_rate_ci95": [
+      0.326,
+      0.41
+    ],
+    "collision_rate": 0.634,
+    "mean_spl": 0.3659798380688426,
+    "mean_uncertainty": 0.4605230272142895,
+    "cautious_ratio": 0.8164614994524156,
+    "n_episodes": 500
+  },
+  "large_mlp": {
+    "success_rate": 0.38,
+    "success_rate_std": 0.06663332499583073,
+    "success_rate_ci95": [
+      0.338,
+      0.424
+    ],
+    "collision_rate": 0.62,
+    "mean_spl": 0.37127895536078603,
+    "mean_uncertainty": 0.0,
+    "cautious_ratio": 0.0,
+    "n_episodes": 500
+  },
+  "mann_whitney_p_value": 0.6474045021445488
+}

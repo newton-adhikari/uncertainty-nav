@@ -1,0 +1,122 @@
+{
+  "policy": "ensemble",
+  "env": "C",
+  "n_episodes": 200,
+  "n_seeds": 5,
+  "success_rate": 0.86,
+  "success_rate_std": 0.046368092477478536,
+  "collision_rate": 0.13999999999999999,
+  "collision_rate_std": 0.04636809247747852,
+  "timeout_rate": 0.0,
+  "timeout_rate_std": 0.0,
+  "mean_spl": 0.86,
+  "mean_spl_std": 0.046368092477478536,
+  "mean_reward": 80.68858005857295,
+  "mean_path_length": 4.043877314021605,
+  "mean_steps": 157.51,
+  "mean_uncertainty": 0.26051725046558755,
+  "std_uncertainty": 0.305697031802832,
+  "mean_cautious_ratio": 0.5724758304129801,
+  "uncertainty_success_correlation": -0.6066704219384603,
+  "uncertainty_calibration": {
+    "q0_sr": 1.0,
+    "q0_cr": 0.0,
+    "q0_timeout": 0.0,
+    "q0_mean_unc": 0.1462370537131112,
+    "q0_n": 50,
+    "q1_sr": 0.98,
+    "q1_cr": 0.02,
+    "q1_timeout": 0.0,
+    "q1_mean_unc": 0.2045299789368088,
+    "q1_n": 50,
+    "q2_sr": 0.9,
+    "q2_cr": 0.1,
+    "q2_timeout": 0.0,
+    "q2_mean_unc": 0.26303231133866445,
+    "q2_n": 50,
+    "q3_sr": 0.56,
+    "q3_cr": 0.44,
+    "q3_timeout": 0.0,
+    "q3_mean_unc": 0.4282696578737658,
+    "q3_n": 50
+  },
+  "ece": 0.15428378081647284,
+  "ece_bins": [
+    {
+      "bin": 0,
+      "n": 11,
+      "mean_unc": 0.1121411640522813,
+      "failure_rate": 0.0
+    },
+    {
+      "bin": 1,
+      "n": 102,
+      "mean_unc": 0.19053624565808286,
+      "failure_rate": 0.0196078431372549
+    },
+    {
+      "bin": 2,
+      "n": 66,
+      "mean_unc": 0.297382419862345,
+      "failure_rate": 0.12121212121212122
+    },
+    {
+      "bin": 3,
+      "n": 13,
+      "mean_unc": 0.41962952828283745,
+      "failure_rate": 0.7692307692307693
+    },
+    {
+      "bin": 4,
+      "n": 2,
+      "mean_unc": 0.5194143406296798,
+      "failure_rate": 1.0
+    },
+    {
+      "bin": 5,
+      "n": 2,
+      "mean_unc": 0.6591442891940689,
+      "failure_rate": 1.0
+    },
+    {
+      "bin": 6,
+      "n": 2,
+      "mean_unc": 0.764638957678601,
+      "failure_rate": 1.0
+    },
+    {
+      "bin": 9,
+      "n": 2,
+      "mean_unc": 1.2331907389108048,
+      "failure_rate": 1.0
+    }
+  ],
+  "auroc_failure": 0.9254568106312292,
+  "roc_curve": [],
+  "routing_table": [
+    {
+      "strategy": "No routing (all autonomous)",
+      "autonomous_frac": 1.0,
+      "autonomous_sr": 0.86,
+      "human_burden": 0.0
+    },
+    {
+      "strategy": "Route Q3 to human",
+      "autonomous_frac": 0.75,
+      "autonomous_sr": 0.96,
+      "human_burden": 0.25
+    },
+    {
+      "strategy": "Route Q2+Q3 to human",
+      "autonomous_frac": 0.5,
+      "autonomous_sr": 0.99,
+      "human_burden": 0.5
+    },
+    {
+      "strategy": "Only Q0 autonomous",
+      "autonomous_frac": 0.25,
+      "autonomous_sr": 1.0,
+      "human_burden": 0.75
+    }
+  ]
+}
