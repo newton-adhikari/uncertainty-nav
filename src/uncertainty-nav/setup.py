@@ -21,7 +21,7 @@ setup(
     zip_safe=True,
     entry_points={
         'console_scripts': [
-            
+            'particle_filter   = uncertainty_nav.particle_filter_node:main',
         ],
     },
 )
