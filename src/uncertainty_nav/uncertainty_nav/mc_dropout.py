@@ -55,3 +55,22 @@ class MCDropoutPolicy(nn.Module):
         }
     
     
+    def uncertainty_driven_action(
+        self, obs: torch.Tensor,
+        uncertainty_threshold: float = 0.5,
+        caution_scale: float = 0.5,
+        n_samples: int = 20,
+    ) -> Tuple[torch.Tensor, torch.Tensor, bool]:
+        # Same interface as DeepEnsemble for fair comparison
+        out = self.mc_forward(obs, n_samples)
+        action = out["action"]
+        uncertainty = out["epistemic_uncertainty"]
+
+        alpha = 1.0 / (uncertainty_threshold + 1e-8)
+        raw_scale = 1.0 / (1.0 + alpha * uncertainty)
+        scale = caution_scale + (1.0 - caution_scale) * raw_scale
+
+        is_cautious = scale < 0.9
+        action = action * scale.unsqueeze(-1)
+        return action, uncertainty, is_cautious.any().item()
+
