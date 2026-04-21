@@ -1,0 +1,72 @@
+{
+  "policy": "mc_dropout",
+  "env": "B",
+  "n_episodes": 200,
+  "n_seeds": 5,
+  "mc_samples": 10,
+  "success_rate": 0.30500000000000005,
+  "success_rate_std": 0.07314369419163896,
+  "collision_rate": 0.6950000000000001,
+  "collision_rate_std": 0.07314369419163898,
+  "timeout_rate": 0.0,
+  "timeout_rate_std": 0.0,
+  "mean_spl": 0.3007192642982479,
+  "mean_spl_std": 0.07128351637807727,
+  "mean_reward": 20.091882453869033,
+  "mean_path_length": 3.313046211149687,
+  "mean_steps": 127.425,
+  "mean_uncertainty": 0.015808176134693822,
+  "std_uncertainty": 0.011368875595761543,
+  "mean_cautious_ratio": 0.002991649541716369,
+  "uncertainty_success_correlation": -0.48437870666012056,
+  "uncertainty_calibration": {
+    "q0_sr": 0.9,
+    "q0_cr": 0.1,
+    "q0_timeout": 0.0,
+    "q0_mean_unc": 0.004664248240981136,
+    "q0_n": 50,
+    "q1_sr": 0.32,
+    "q1_cr": 0.68,
+    "q1_timeout": 0.0,
+    "q1_mean_unc": 0.00798878702259901,
+    "q1_n": 50,
+    "q2_sr": 0.0,
+    "q2_cr": 1.0,
+    "q2_timeout": 0.0,
+    "q2_mean_unc": 0.015582519518512724,
+    "q2_n": 50,
+    "q3_sr": 0.0,
+    "q3_cr": 1.0,
+    "q3_timeout": 0.0,
+    "q3_mean_unc": 0.03499714975668242,
+    "q3_n": 50
+  },
+  "auroc_failure": 0.9696898219129614,
+  "ece": 0.5132498202033863,
+  "routing_table": [
+    {
+      "strategy": "No routing (all autonomous)",
+      "autonomous_frac": 1.0,
+      "autonomous_sr": 0.305,
+      "human_burden": 0.0
+    },
+    {
+      "strategy": "Route Q3 to human",
+      "autonomous_frac": 0.75,
+      "autonomous_sr": 0.4066666666666667,
+      "human_burden": 0.25
+    },
+    {
+      "strategy": "Route Q2+Q3 to human",
+      "autonomous_frac": 0.5,
+      "autonomous_sr": 0.61,
+      "human_burden": 0.5
+    },
+    {
+      "strategy": "Only Q0 autonomous",
+      "autonomous_frac": 0.25,
+      "autonomous_sr": 0.9,
+      "human_burden": 0.75
+    }
+  ]
+}

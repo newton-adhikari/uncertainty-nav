@@ -24,6 +24,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 from uncertainty_nav.models import PolicyNetwork, ValueNetwork
 from uncertainty_nav.baselines import VanillaMLP, RecurrentPolicy, LargeMLPPolicy
+from uncertainty_nav.mc_dropout import MCDropoutPolicy
 from uncertainty_nav.nav_env import PartialObsNavEnv, ENV_A, ENV_B
 
 
@@ -90,6 +91,12 @@ class PPOTrainer:
                 obs_dim, act_dim,
                 n_members=self.cfg.get("n_members", 5),
                 hidden=self.cfg.get("hidden", 256),
+            ).to(self.device)
+        elif policy_type == "mc_dropout":
+            self.policy = MCDropoutPolicy(
+                obs_dim, act_dim,
+                hidden=self.cfg.get("hidden", 256),
+                dropout_rate=self.cfg.get("dropout_rate", 0.1),
             ).to(self.device)
         else:
             self.policy = VanillaMLP(
