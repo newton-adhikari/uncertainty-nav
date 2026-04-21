@@ -6,346 +6,332 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import os
-import sys
 
 RESULTS_DIR = "experiments/results"
 PLOTS_DIR = "experiments/plots"
 os.makedirs(PLOTS_DIR, exist_ok=True)
 
-
-# added consistent style
 plt.rcParams.update({
     "font.size": 11, "axes.titlesize": 13, "axes.labelsize": 12,
     "legend.fontsize": 10, "figure.dpi": 150,
 })
 
 COLORS = {
-    "ensemble": "#2196F3", "vanilla": "#F44336", "lstm": "#FF9800",
-    "gru": "#9C27B0", "large_mlp": "#4CAF50",
+    "ensemble": "#2196F3", "mc_dropout": "#E91E63", "vanilla": "#F44336",
+    "lstm": "#FF9800", "gru": "#9C27B0", "large_mlp": "#4CAF50",
 }
 LABELS = {
-    "ensemble": "Deep Ensemble (Ours)", "vanilla": "Vanilla PPO",
-    "lstm": "LSTM", "gru": "GRU", "large_mlp": "Large MLP",
+    "ensemble": "Ensemble (N=5)", "mc_dropout": "MC-Dropout",
+    "vanilla": "Vanilla MLP", "lstm": "LSTM", "gru": "GRU",
+    "large_mlp": "Large MLP",
 }
 
 
-def _load_json(path):
+def _load(path):
     if not os.path.exists(path):
         return None
     with open(path) as f:
         return json.load(f)
 
 
-def _run_ensemble_episodes(env_cfg, n_episodes=200):
-    # Run ensemble on env, return per-episode (uncertainty, success) pairs
-    import torch
-    sys.path.insert(0, "src/uncertainty_nav")
-    from uncertainty_nav.models import DeepEnsemble
-    from uncertainty_nav.nav_env import PartialObsNavEnv
-
-    device = torch.device("cpu")
-    env = PartialObsNavEnv(env_cfg, seed=42)
-    obs_dim = env.observation_space.shape[0]
-    act_dim = env.action_space.shape[0]
-
-    paths = [f"checkpoints/ensemble_m{i}_policy.pt" for i in range(5)]
-    existing = [p for p in paths if os.path.exists(p)]
-    if not existing:
-        return None, None, None
-    policy = DeepEnsemble.from_checkpoints(existing, obs_dim, act_dim, device=device)
-
-    uncs, successes, step_uncs = [], [], []
-    for _ in range(n_episodes):
-        obs, _ = env.reset()
-        done = False
-        ep_uncs = []
-        while not done:
-            obs_t = torch.FloatTensor(obs).unsqueeze(0)
-            with torch.no_grad():
-                out = policy(obs_t)
-                ep_uncs.append(out["epistemic_uncertainty"].item())
-                action = out["action"]
-            obs, _, term, trunc, info = env.step(action.squeeze(0).numpy())
-            done = term or trunc
-        uncs.append(np.mean(ep_uncs))
-        successes.append(float(info.get("success", False)))
-        step_uncs.append(ep_uncs)
-    return np.array(uncs), np.array(successes), step_uncs
+def _find_mc(env, T=20):
+    # Find MC-Dropout result, trying T-specific filename first
+    for p in [f"{RESULTS_DIR}/mc_dropout_T{T}_env{env}.json",
+              f"{RESULTS_DIR}/mc_dropout_env{env}.json"]:
+        d = _load(p)
+        if d:
+            return d
+    return None
 
 
-# Figure 1: OOD Detection — Uncertainty Distribution Shift
-def fig1_ood_detection():
-    # Histogram: uncertainty distribution on Env A vs Env B.
-    # Shows the ensemble detects distribution shift
-    from uncertainty_nav.nav_env import ENV_A, ENV_B
+def _save(name):
+    plt.savefig(f"{PLOTS_DIR}/{name}.pdf", bbox_inches="tight")
+    plt.savefig(f"{PLOTS_DIR}/{name}.png", dpi=150, bbox_inches="tight")
+    print(f"  Saved {name}")
+    plt.close()
 
-    uncs_a, _, _ = _run_ensemble_episodes(ENV_A, 200)
-    uncs_b, _, _ = _run_ensemble_episodes(ENV_B, 200)
-    if uncs_a is None or uncs_b is None:
-        print("Skipping fig1 — no ensemble checkpoints")
-        return
 
-    fig, ax = plt.subplots(figsize=(8, 5))
-    bins = np.linspace(0, max(uncs_a.max(), uncs_b.max()) * 1.1, 40)
-    ax.hist(uncs_a, bins=bins, alpha=0.6, color="#2196F3", label=f"Env A (train) μ={uncs_a.mean():.3f}", density=True)
-    ax.hist(uncs_b, bins=bins, alpha=0.6, color="#F44336", label=f"Env B (unseen) μ={uncs_b.mean():.3f}", density=True)
-    ax.set_xlabel("Mean Epistemic Uncertainty per Episode")
-    ax.set_ylabel("Density")
-    ax.set_title("Distribution Shift Detection via Epistemic Uncertainty")
-    ax.legend()
-    ax.grid(alpha=0.3)
+
+# Fig 1: Method comparison across 4 environments
+def fig1_method_comparison():
+    methods = ["vanilla", "lstm", "gru", "large_mlp", "mc_dropout", "ensemble"]
+    envs = ["A", "C", "D", "B"]
+    env_labels = ["Env A\n(train)", "Env C\n(sensor shift)", "Env D\n(layout shift)", "Env B\n(combined)"]
+
+    fig, ax = plt.subplots(figsize=(14, 6))
+    x = np.arange(len(envs))
+    n = len(methods)
+    width = 0.13
+
+    for i, m in enumerate(methods):
+        vals, errs = [], []
+        for env in envs:
+            if m == "mc_dropout":
+                d = _find_mc(env)
+            else:
+                d = _load(f"{RESULTS_DIR}/{m}_env{env}.json")
+            vals.append(d["success_rate"] if d else 0)
+            errs.append(d.get("success_rate_std", 0) if d else 0)
+        offset = (i - n/2 + 0.5) * width
+        ax.bar(x + offset, vals, width, yerr=errs, capsize=3,
+               color=COLORS[m], alpha=0.85, label=LABELS[m])
+
+    ax.set_xticks(x)
+    ax.set_xticklabels(env_labels)
+    ax.set_ylabel("Success Rate")
+    ax.set_ylim(0, 1.15)
+    ax.set_title("Navigation Performance Across Distribution Shift Spectrum")
+    ax.legend(ncol=3, loc="upper right")
+    ax.grid(axis="y", alpha=0.3)
     plt.tight_layout()
-    plt.savefig(f"{PLOTS_DIR}/fig1_ood_detection.pdf", bbox_inches="tight")
-    plt.savefig(f"{PLOTS_DIR}/fig1_ood_detection.png", dpi=150, bbox_inches="tight")
-    print("Saved fig1_ood_detection")
+    _save("fig1_method_comparison")
 
 
-# Figure 2: Calibration Curve (THE key result)
+
+# Fig 2: Calibration curve — SR per quartile (both methods, Env B)
+
 def fig2_calibration():
-    # Bar chart: SR per uncertainty quartile on Env A and Env B.
-    # Shows uncertainty reliably predicts failure
-    data_a = _load_json(f"{RESULTS_DIR}/ensemble_envA.json")
-    data_b = _load_json(f"{RESULTS_DIR}/ensemble_envB.json")
-    if not data_a or not data_b:
-        print("Skipping fig2 — missing ensemble results")
-        return
-
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
-    quartile_labels = ["Q1\n(low unc)", "Q2", "Q3", "Q4\n(high unc)"]
+    q_labels = ["Q0\n(low unc)", "Q1", "Q2", "Q3\n(high unc)"]
+    q_colors = ["#4CAF50", "#8BC34A", "#FF9800", "#F44336"]
 
-    for ax, data, env_name in zip(axes, [data_a, data_b], ["Env A (Training)", "Env B (Unseen)"]):
-        cal = data.get("uncertainty_calibration", {})
-        if not cal:
+    for ax, (label, loader) in zip(axes, [
+        ("Ensemble (Env B)", lambda: _load(f"{RESULTS_DIR}/ensemble_envB.json")),
+        ("MC-Dropout (Env B)", lambda: _find_mc("B")),
+    ]):
+        d = loader()
+        if not d or "uncertainty_calibration" not in d:
+            ax.set_title(f"{label} — no data")
             continue
-        srs = [cal.get(f"q{b}_sr", 0.0) for b in range(4)]
-        uncs = [cal.get(f"q{b}_mean_unc", 0.0) for b in range(4)]
+        cal = d["uncertainty_calibration"]
+        srs = [cal.get(f"q{b}_sr", 0) for b in range(4)]
+        uncs = [cal.get(f"q{b}_mean_unc", 0) for b in range(4)]
 
-        x = np.arange(4)
-        bars = ax.bar(x, srs, color=["#4CAF50", "#8BC34A", "#FF9800", "#F44336"], alpha=0.8)
-        ax.set_xticks(x)
-        ax.set_xticklabels(quartile_labels)
+        bars = ax.bar(range(4), srs, color=q_colors, alpha=0.85)
+        ax.set_xticks(range(4))
+        ax.set_xticklabels(q_labels)
         ax.set_ylabel("Success Rate")
         ax.set_ylim(0, 1.15)
-        ax.set_title(f"Uncertainty Calibration — {env_name}")
+        ax.set_title(f"Uncertainty Calibration — {label}")
         ax.grid(axis="y", alpha=0.3)
-
-        # Annotate bars with SR and uncertainty values
         for i, (bar, sr, unc) in enumerate(zip(bars, srs, uncs)):
             ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.02,
-                    f"SR={sr:.2f}\nσ={unc:.3f}", ha="center", va="bottom", fontsize=9)
+                    f"{sr:.2f}\n(u={unc:.3f})", ha="center", va="bottom", fontsize=8)
 
     plt.tight_layout()
-    plt.savefig(f"{PLOTS_DIR}/fig2_calibration.pdf", bbox_inches="tight")
-    plt.savefig(f"{PLOTS_DIR}/fig2_calibration.png", dpi=150, bbox_inches="tight")
-    print("Saved fig2_calibration")
+    _save("fig2_calibration")
 
 
-# Figure 3: Failure Prediction — Precision/Recall at thresholds
+
+# Fig 3: AUROC comparison across environments
+
 def fig3_failure_prediction():
-    # Precision-recall style: if we flag episodes above uncertainty threshold
-    # as 'will fail', how accurate is that prediction?# 
-    from uncertainty_nav.nav_env import ENV_B
+    envs = ["A", "C", "D", "B"]
+    env_labels = ["Env A", "Env C", "Env D", "Env B"]
 
-    uncs, successes, _ = _run_ensemble_episodes(ENV_B, 300)
-    if uncs is None:
-        print("Skipping fig3")
-        return
+    ens_auroc, mc_auroc = [], []
+    for env in envs:
+        d_ens = _load(f"{RESULTS_DIR}/ensemble_env{env}.json")
+        d_mc = _find_mc(env)
+        ens_auroc.append(d_ens.get("auroc_failure", 0) if d_ens else 0)
+        mc_auroc.append(d_mc.get("auroc_failure", 0) if d_mc else 0)
 
-    failures = 1.0 - successes  # 1 = failed
-    thresholds = np.linspace(uncs.min(), uncs.max(), 50)
+    fig, ax = plt.subplots(figsize=(8, 5))
+    x = np.arange(len(envs))
+    w = 0.35
+    ax.bar(x - w/2, ens_auroc, w, color=COLORS["ensemble"], alpha=0.85, label="Ensemble")
+    ax.bar(x + w/2, mc_auroc, w, color=COLORS["mc_dropout"], alpha=0.85, label="MC-Dropout")
 
-    precisions, recalls, f1s = [], [], []
-    for t in thresholds:
-        predicted_fail = uncs > t
-        tp = (predicted_fail & (failures == 1)).sum()
-        fp = (predicted_fail & (failures == 0)).sum()
-        fn = (~predicted_fail & (failures == 1)).sum()
-        precision = tp / (tp + fp + 1e-8)
-        recall = tp / (tp + fn + 1e-8)
-        f1 = 2 * precision * recall / (precision + recall + 1e-8)
-        precisions.append(precision)
-        recalls.append(recall)
-        f1s.append(f1)
+    for i in range(len(envs)):
+        ax.text(x[i] - w/2, ens_auroc[i] + 0.01, f"{ens_auroc[i]:.3f}", ha="center", fontsize=9)
+        ax.text(x[i] + w/2, mc_auroc[i] + 0.01, f"{mc_auroc[i]:.3f}", ha="center", fontsize=9)
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    ax.set_xticks(x)
+    ax.set_xticklabels(env_labels)
+    ax.set_ylabel("AUROC (Failure Prediction)")
+    ax.set_ylim(0.4, 1.05)
+    ax.axhline(0.5, color="gray", linestyle="--", alpha=0.5, label="Random (0.5)")
+    ax.set_title("Failure Prediction Quality: Ensemble vs MC-Dropout")
+    ax.legend()
+    ax.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    _save("fig3_failure_prediction")
 
-    # Precision-Recall curve
-    ax1.plot(recalls, precisions, "b-", linewidth=2)
-    ax1.set_xlabel("Recall (fraction of failures detected)")
-    ax1.set_ylabel("Precision (fraction of flags that are real failures)")
-    ax1.set_title("Failure Prediction: Precision vs Recall")
-    ax1.set_xlim(0, 1.05)
-    ax1.set_ylim(0, 1.05)
-    ax1.grid(alpha=0.3)
 
-    # F1 vs threshold
-    ax2.plot(thresholds, f1s, "r-", linewidth=2)
-    best_idx = np.argmax(f1s)
-    ax2.axvline(thresholds[best_idx], color="gray", linestyle="--", alpha=0.7,
-                label=f"Best threshold={thresholds[best_idx]:.3f}")
-    ax2.set_xlabel("Uncertainty Threshold")
-    ax2.set_ylabel("F1 Score")
-    ax2.set_title("Optimal Failure Detection Threshold")
-    ax2.legend()
-    ax2.grid(alpha=0.3)
+
+# Fig 4: Routing table — autonomous SR vs human burden
+
+def fig4_routing():
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+
+    for ax, env, env_label in zip(axes, ["B", "D"], ["Env B (combined)", "Env D (layout)"]):
+        d_ens = _load(f"{RESULTS_DIR}/ensemble_env{env}.json")
+        d_mc = _find_mc(env)
+
+        for d, label, color, marker in [
+            (d_ens, "Ensemble", COLORS["ensemble"], "o"),
+            (d_mc, "MC-Dropout", COLORS["mc_dropout"], "s"),
+        ]:
+            if not d or "routing_table" not in d:
+                continue
+            rt = d["routing_table"]
+            burdens = [r["human_burden"] for r in rt]
+            auto_srs = [r["autonomous_sr"] for r in rt]
+            ax.plot(burdens, auto_srs, f"-{marker}", color=color, linewidth=2,
+                    markersize=8, label=label)
+            for b, sr in zip(burdens, auto_srs):
+                ax.annotate(f"{sr:.2f}", (b, sr), textcoords="offset points",
+                            xytext=(5, 5), fontsize=8)
+
+        ax.set_xlabel("Human Burden (fraction routed to human)")
+        ax.set_ylabel("Autonomous SR (on retained subset)")
+        ax.set_title(f"Selective Deployment — {env_label}")
+        ax.set_xlim(-0.05, 0.85)
+        ax.set_ylim(0, 1.05)
+        ax.legend()
+        ax.grid(alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig(f"{PLOTS_DIR}/fig3_failure_prediction.pdf", bbox_inches="tight")
-    plt.savefig(f"{PLOTS_DIR}/fig3_failure_prediction.png", dpi=150, bbox_inches="tight")
-    print("Saved fig3_failure_prediction")
+    _save("fig4_routing")
 
 
-# Figure 4: Ensemble Size vs Calibration Quality
-def fig4_ensemble_size():
-    # N vs uncertainty magnitude. N=1 has zero uncertainty (can't predict),
-    # N=5+ has meaningful uncertainty
-    data = _load_json(f"{RESULTS_DIR}/ablation_ensemble_size.json")
+
+# Fig 5: Ensemble size ablation — AUROC vs N
+
+def fig5_ensemble_size():
+    data = _load(f"{RESULTS_DIR}/ensemble_size_auroc.json")
     if not data:
-        print("Skipping fig4")
+        print("  Skipping fig5 — no ensemble_size_auroc.json")
         return
 
-    ns, srs, uncs = [], [], []
-    for key, val in sorted(data.items(), key=lambda x: int(x[0].split("=")[1]) if "N=" in x[0] else 999):
-        if not key.startswith("N=") or val.get("status"):
-            continue
+    ns, srs, aurocs = [], [], []
+    for key in sorted(data.keys(), key=lambda k: int(k.split("=")[1])):
+        v = data[key]
         ns.append(int(key.split("=")[1]))
-        srs.append(val["success_rate"])
-        uncs.append(val.get("mean_uncertainty", 0.0))
-
-    if not ns:
-        print("No ensemble size data")
-        return
+        srs.append(v["success_rate"])
+        aurocs.append(v.get("auroc", 0.5))
 
     fig, ax1 = plt.subplots(figsize=(7, 5))
     ax2 = ax1.twinx()
 
-    ax1.bar(range(len(ns)), srs, color="#2196F3", alpha=0.6, label="Success Rate")
-    ax2.plot(range(len(ns)), uncs, "r-o", linewidth=2, markersize=8, label="Mean Uncertainty")
+    ax1.bar(range(len(ns)), srs, color=COLORS["ensemble"], alpha=0.5, label="SR")
+    ax2.plot(range(len(ns)), aurocs, "r-o", linewidth=2, markersize=8, label="AUROC")
+    ax2.axhline(0.5, color="gray", linestyle="--", alpha=0.5)
 
     ax1.set_xticks(range(len(ns)))
     ax1.set_xticklabels([f"N={n}" for n in ns])
-    ax1.set_ylabel("Success Rate", color="#2196F3")
-    ax2.set_ylabel("Mean Epistemic Uncertainty", color="r")
-    ax1.set_ylim(0, 0.6)
-    ax1.set_title("Ensemble Size: More Members → More Uncertainty Signal")
-    ax1.annotate("N=1: no uncertainty\n(cannot predict failure)",
-                 xy=(0, uncs[0]), xytext=(0.5, max(uncs)*0.5),
-                 arrowprops=dict(arrowstyle="->", color="gray"),
-                 fontsize=9, color="gray")
+    ax1.set_ylabel("Success Rate", color=COLORS["ensemble"])
+    ax2.set_ylabel("AUROC", color="red")
+    ax1.set_ylim(0, 0.5)
+    ax2.set_ylim(0.4, 1.0)
+    ax1.set_title("Ensemble Size: N=5 Maximizes AUROC")
 
     lines1, labels1 = ax1.get_legend_handles_labels()
     lines2, labels2 = ax2.get_legend_handles_labels()
     ax1.legend(lines1 + lines2, labels1 + labels2, loc="upper left")
     ax1.grid(axis="y", alpha=0.3)
     plt.tight_layout()
-    plt.savefig(f"{PLOTS_DIR}/fig4_ensemble_size.pdf", bbox_inches="tight")
-    plt.savefig(f"{PLOTS_DIR}/fig4_ensemble_size.png", dpi=150, bbox_inches="tight")
-    print("Saved fig4_ensemble_size")
+    _save("fig5_ensemble_size")
 
 
-# Figure 5: Uncertainty Timeline (single episode)
-def fig5_uncertainty_timeline():
-    # Uncertainty over time in one episode on Env B
-    import torch
-    sys.path.insert(0, "src/uncertainty_nav")
-    from uncertainty_nav.models import DeepEnsemble
-    from uncertainty_nav.nav_env import PartialObsNavEnv, ENV_B
 
-    device = torch.device("cpu")
-    env = PartialObsNavEnv(ENV_B, seed=42)
-    obs_dim, act_dim = env.observation_space.shape[0], env.action_space.shape[0]
+# Fig 6: OOD detection — uncertainty distribution across envs
 
-    paths = [f"checkpoints/ensemble_m{i}_policy.pt" for i in range(5)]
-    existing = [p for p in paths if os.path.exists(p)]
-    if not existing:
-        print("Skipping fig5")
+def fig6_ood_detection():
+    envs = ["A", "C", "D", "B"]
+    env_labels = ["Env A (train)", "Env C (sensor)", "Env D (layout)", "Env B (combined)"]
+    colors = ["#2196F3", "#4CAF50", "#FF9800", "#F44336"]
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    for env, label, color in zip(envs, env_labels, colors):
+        d = _load(f"{RESULTS_DIR}/ensemble_env{env}.json")
+        if not d:
+            continue
+        unc = d["mean_uncertainty"]
+        ax.barh(label, unc, color=color, alpha=0.8)
+        ax.text(unc + 0.01, label, f"{unc:.3f}", va="center", fontsize=10)
+
+    ax.set_xlabel("Mean Epistemic Uncertainty")
+    ax.set_title("Distribution Shift Detection: Uncertainty Tracks Difficulty")
+    ax.grid(axis="x", alpha=0.3)
+    plt.tight_layout()
+    _save("fig6_ood_detection")
+
+
+
+# Fig 7: MC-Dropout T ablation (if data exists)
+
+def fig7_mc_t_ablation():
+    ts, aurocs, srs = [], [], []
+    for T in [5, 10, 20]:
+        d = _load(f"{RESULTS_DIR}/mc_dropout_T{T}_envB.json")
+        if d:
+            ts.append(T)
+            aurocs.append(d.get("auroc_failure", 0))
+            srs.append(d["success_rate"])
+
+    if len(ts) < 2:
+        print("  Skipping fig7 — need at least 2 T values")
         return
-    policy = DeepEnsemble.from_checkpoints(existing, obs_dim, act_dim, device=device)
 
-    # Run multiple episodes, pick one success and one failure
-    episodes = []
-    for seed in range(50):
-        obs, _ = env.reset(seed=seed)
-        done = False
-        ep_uncs = []
-        while not done:
-            obs_t = torch.FloatTensor(obs).unsqueeze(0)
-            with torch.no_grad():
-                action, unc, _ = policy.uncertainty_driven_action(obs_t)
-            obs, _, term, trunc, info = env.step(action.squeeze(0).numpy())
-            done = term or trunc
-            ep_uncs.append(unc.item())
-        episodes.append({"uncs": ep_uncs, "success": info.get("success", False),
-                         "collision": info.get("collision", False)})
+    fig, ax1 = plt.subplots(figsize=(7, 5))
+    ax2 = ax1.twinx()
 
-    # Find one success and one failure
-    success_ep = next((e for e in episodes if e["success"]), None)
-    failure_ep = next((e for e in episodes if e["collision"]), None)
+    ax1.bar(range(len(ts)), srs, color=COLORS["mc_dropout"], alpha=0.5, label="SR")
+    ax2.plot(range(len(ts)), aurocs, "b-o", linewidth=2, markersize=8, label="AUROC")
 
-    fig, axes = plt.subplots(1, 2, figsize=(14, 4), sharey=True)
+    ax1.set_xticks(range(len(ts)))
+    ax1.set_xticklabels([f"T={t}" for t in ts])
+    ax1.set_ylabel("Success Rate", color=COLORS["mc_dropout"])
+    ax2.set_ylabel("AUROC", color="blue")
+    ax1.set_ylim(0, 0.6)
+    ax2.set_ylim(0.8, 1.0)
+    ax1.set_title("MC-Dropout: Inference Samples T vs Quality (Env B)")
 
-    if success_ep:
-        ax = axes[0]
-        ax.plot(success_ep["uncs"], "g-", linewidth=1.5)
-        ax.fill_between(range(len(success_ep["uncs"])), 0, success_ep["uncs"], alpha=0.15, color="green")
-        ax.set_title("Successful Episode (low uncertainty)")
-        ax.set_xlabel("Step")
-        ax.set_ylabel("Epistemic Uncertainty")
-        ax.grid(alpha=0.3)
-
-    if failure_ep:
-        ax = axes[1]
-        ax.plot(failure_ep["uncs"], "r-", linewidth=1.5)
-        ax.fill_between(range(len(failure_ep["uncs"])), 0, failure_ep["uncs"], alpha=0.15, color="red")
-        ax.set_title("Failed Episode (high uncertainty before collision)")
-        ax.set_xlabel("Step")
-        ax.grid(alpha=0.3)
-
-    plt.suptitle("Uncertainty Dynamics: Success vs Failure (Env B)", y=1.02)
+    lines1, labels1 = ax1.get_legend_handles_labels()
+    lines2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(lines1 + lines2, labels1 + labels2)
+    ax1.grid(axis="y", alpha=0.3)
     plt.tight_layout()
-    plt.savefig(f"{PLOTS_DIR}/fig5_uncertainty_timeline.pdf", bbox_inches="tight")
-    plt.savefig(f"{PLOTS_DIR}/fig5_uncertainty_timeline.png", dpi=150, bbox_inches="tight")
-    print("Saved fig5_uncertainty_timeline")
+    _save("fig7_mc_t_ablation")
 
 
-# Figure 6: Method Comparison (context, not main claim)
-def fig6_method_comparison():
-    # Bar chart: SR for all methods on Env A and B. For context only
-    methods = ["vanilla", "lstm", "gru", "large_mlp", "ensemble"]
-    fig, ax = plt.subplots(figsize=(10, 5))
-    x = np.arange(len(methods))
-    width = 0.35
 
-    for i, env in enumerate(["A", "B"]):
-        vals, errs = [], []
-        for m in methods:
-            data = _load_json(f"{RESULTS_DIR}/{m}_env{env}.json")
-            vals.append(data["success_rate"] if data else 0.0)
-            errs.append(data.get("success_rate_std", 0.0) if data else 0.0)
-        offset = (i - 0.5) * width
-        colors = [COLORS[m] for m in methods]
-        ax.bar(x + offset, vals, width, yerr=errs, capsize=4,
-               color=colors, alpha=0.6 + 0.3*i,
-               label=f"Env {'A (train)' if env == 'A' else 'B (unseen)'}")
+# Fig 8: Robustness curve (SR vs noise, Env A layout)
 
-    ax.set_xticks(x)
-    ax.set_xticklabels([LABELS[m] for m in methods], rotation=15, ha="right")
+def fig8_robustness():
+    methods = ["ensemble", "vanilla", "large_mlp"]
+    fig, ax = plt.subplots(figsize=(8, 5))
+
+    for m in methods:
+        d = _load(f"{RESULTS_DIR}/{m}_envA.json")
+        if not d or "robustness_curve" not in d:
+            continue
+        rc = d["robustness_curve"]
+        sigmas = sorted(rc.keys(), key=float)
+        srs = [rc[s] for s in sigmas]
+        ax.plot([float(s) for s in sigmas], srs, "-o", color=COLORS[m],
+                linewidth=2, markersize=6, label=LABELS[m])
+
+    ax.set_xlabel("Laser Noise σ")
     ax.set_ylabel("Success Rate")
-    ax.set_ylim(0, 1.15)
-    ax.set_title("Navigation Performance (all methods degrade on unseen Env B)")
+    ax.set_ylim(0.5, 1.05)
+    ax.set_title("Robustness to Sensor Noise (Env A Layout)")
     ax.legend()
-    ax.grid(axis="y", alpha=0.3)
+    ax.grid(alpha=0.3)
     plt.tight_layout()
-    plt.savefig(f"{PLOTS_DIR}/fig6_method_comparison.pdf", bbox_inches="tight")
-    plt.savefig(f"{PLOTS_DIR}/fig6_method_comparison.png", dpi=150, bbox_inches="tight")
-    print("Saved fig6_method_comparison")
+    _save("fig8_robustness")
+
 
 
 if __name__ == "__main__":
-    fig1_ood_detection()
+    print("Generating figures...")
+    fig1_method_comparison()
     fig2_calibration()
     fig3_failure_prediction()
-    fig4_ensemble_size()
-    fig5_uncertainty_timeline()
-    fig6_method_comparison()
+    fig4_routing()
+    fig5_ensemble_size()
+    fig6_ood_detection()
+    fig7_mc_t_ablation()
+    fig8_robustness()
     print(f"\nAll plots saved to {PLOTS_DIR}/")
