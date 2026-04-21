@@ -1,0 +1,16 @@
+# Training config: MC-Dropout baseline
+# Same architecture as Vanilla MLP but with dropout=0.1
+# At eval time, dropout stays ON for K=20 stochastic passes
+policy_type: "mc_dropout"
+env: "A"
+hidden: 256
+dropout_rate: 0.1
+lr: 3.0e-4
+total_steps: 2_000_000
+n_steps: 2048
+clip_eps: 0.2
+ppo_epochs: 10
+gamma: 0.99
+lam: 0.95
+log_dir: "runs/mc_dropout"
+output_dir: "checkpoints"
