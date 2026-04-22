@@ -1,0 +1,152 @@
+Found 40 result files
+
+======================================================================
+TABLE III — MAIN RESULTS (SR ± std, AUROC, ECE)
+======================================================================
+  vanilla        Env A: SR=0.935±0.041 SPL=0.934 CR=0.065 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  vanilla        Env B: SR=0.370±0.056 SPL=0.370 CR=0.630 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  vanilla        Env C: SR=0.875±0.045 SPL=0.875 CR=0.125 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  vanilla        Env D: SR=0.390±0.037 SPL=0.383 CR=0.570 TR=0.040 unc=0.0000 AUROC=- ECE=- r=-
+
+  lstm           Env A: SR=0.715±0.034 SPL=0.703 CR=0.285 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  lstm           Env B: SR=0.180±0.080 SPL=0.174 CR=0.820 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  lstm           Env C: SR=0.615±0.096 SPL=0.595 CR=0.385 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  lstm           Env D: SR=0.270±0.058 SPL=0.264 CR=0.730 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+
+  gru            Env A: SR=0.700±0.087 SPL=0.696 CR=0.300 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  gru            Env B: SR=0.225±0.042 SPL=0.224 CR=0.775 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  gru            Env C: SR=0.720±0.033 SPL=0.718 CR=0.280 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  gru            Env D: SR=0.240±0.064 SPL=0.239 CR=0.760 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+
+  large_mlp      Env A: SR=0.955±0.010 SPL=0.935 CR=0.045 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  large_mlp      Env B: SR=0.420±0.089 SPL=0.413 CR=0.580 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  large_mlp      Env C: SR=0.905±0.058 SPL=0.893 CR=0.095 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+  large_mlp      Env D: SR=0.425±0.042 SPL=0.411 CR=0.575 TR=0.000 unc=0.0000 AUROC=- ECE=- r=-
+
+  mc_dropout     Env A: SR=1.000±0.000 SPL=0.988 CR=0.000 TR=0.000 unc=0.0054 AUROC=0.500 ECE=0.434 r=nan
+  mc_dropout     Env B: SR=0.375±0.055 SPL=0.369 CR=0.625 TR=0.000 unc=0.0160 AUROC=0.967 ECE=0.534 r=-0.405
+  mc_dropout     Env C: SR=0.930±0.029 SPL=0.924 CR=0.070 TR=0.000 unc=0.0054 AUROC=0.972 ECE=0.273 r=-0.667
+  mc_dropout     Env D: SR=0.450±0.096 SPL=0.418 CR=0.550 TR=0.000 unc=0.0172 AUROC=0.955 ECE=0.410 r=-0.529
+
+  ensemble       Env A: SR=0.990±0.012 SPL=0.988 CR=0.010 TR=0.000 unc=0.2829 AUROC=0.990 ECE=0.268 r=-0.388
+  ensemble       Env B: SR=0.346±0.029 SPL=0.344 CR=0.646 TR=0.008 unc=0.9739 AUROC=0.721 ECE=0.329 r=-0.350
+  ensemble       Env C: SR=0.860±0.046 SPL=0.860 CR=0.140 TR=0.000 unc=0.2605 AUROC=0.925 ECE=0.154 r=-0.607
+  ensemble       Env D: SR=0.370±0.084 SPL=0.365 CR=0.470 TR=0.160 unc=0.7110 AUROC=0.886 ECE=0.349 r=-0.573
+
+======================================================================
+TABLE IV — FAILURE PREDICTION (AUROC, ECE, r)
+======================================================================
+  Ensemble       Env A: AUROC=0.990  ECE=0.268  r=-0.388
+  Ensemble       Env C: AUROC=0.925  ECE=0.154  r=-0.607
+  Ensemble       Env D: AUROC=0.886  ECE=0.349  r=-0.573
+  Ensemble       Env B: AUROC=0.721  ECE=0.329  r=-0.350
+
+  MC-Drop T=20   Env A: AUROC=0.500  ECE=0.434  r=nan
+  MC-Drop T=20   Env C: AUROC=0.972  ECE=0.273  r=-0.667
+  MC-Drop T=20   Env D: AUROC=0.955  ECE=0.410  r=-0.529
+  MC-Drop T=20   Env B: AUROC=0.967  ECE=0.534  r=-0.405
+
+======================================================================
+TABLE V — ROUTING (Env B)
+======================================================================
+  Ensemble:
+    No routing (all autonomous)     auto_SR=0.346  human=0%
+    Route Q3 to human               auto_SR=0.443  human=25%
+    Route Q2+Q3 to human            auto_SR=0.500  human=50%
+    Only Q0 autonomous              auto_SR=0.528  human=75%
+
+  MC-Drop T=20:
+    No routing (all autonomous)     auto_SR=0.375  human=0%
+    Route Q3 to human               auto_SR=0.500  human=25%
+    Route Q2+Q3 to human            auto_SR=0.730  human=50%
+    Only Q0 autonomous              auto_SR=0.980  human=75%
+
+======================================================================
+TABLE VI — MC-DROPOUT T ABLATION (Env B)
+======================================================================
+  T= 5: SR=0.335±0.077  AUROC=0.952  ECE=0.510
+  T=10: SR=0.425±0.047  AUROC=0.964  ECE=0.420
+  T=20: SR=0.375±0.055  AUROC=0.967  ECE=0.534
+
+======================================================================
+TABLE VII — ENSEMBLE SIZE ABLATION (Env B)
+======================================================================
+  N=1: SR=0.376  AUROC=0.500  ECE=0.624  unc=0.0000
+  N=2: SR=0.364  AUROC=0.748  ECE=0.478  unc=0.3572
+  N=3: SR=0.346  AUROC=0.804  ECE=0.513  unc=0.3010
+  N=5: SR=0.336  AUROC=0.888  ECE=0.509  unc=0.4858
+  N=10: SR=0.350  AUROC=0.792  ECE=0.394  unc=1.0190
+
+======================================================================
+UNCERTAINTY RATIO (Env D / Env C)
+======================================================================
+  Ensemble: D=0.7110 / C=0.2605 = 2.7x
+  MC-Dropout: D=0.0172 / C=0.0054 = 3.2x
+
+======================================================================
+TEMPERATURE SCALING
+======================================================================
+  Env A: raw=0.2756 -> cal=0.4970 (T=10.000, reduction=-80.3%)
+  Env B: raw=0.5378 -> cal=0.2644 (T=1.759, reduction=50.8%)
+  Env C: raw=0.1842 -> cal=0.4063 (T=10.000, reduction=-120.6%)
+  Env D: raw=0.4689 -> cal=0.0841 (T=0.161, reduction=82.1%)
+
+======================================================================
+COSINE SIMILARITY
+======================================================================
+  Env A: overall=0.9397  success=0.9431  failure=0.7190
+  Env B: overall=0.8814  success=0.9532  failure=0.8445
+  Env C: overall=0.9485  success=0.9550  failure=0.9101
+  Env D: overall=0.6427  success=0.9088  failure=0.4761
+
+======================================================================
+INFERENCE LATENCY
+======================================================================
+  MC-Drop T=5: mean=0.614ms  p95=0.756ms
+  MC-Drop T=10: mean=1.069ms  p95=1.207ms
+  MC-Drop T=20: mean=2.058ms  p95=2.297ms
+  Ensemble N=5: mean=0.379ms  p95=0.468ms
+
+======================================================================
+FILE MANIFEST (40 files)
+======================================================================
+  experiments/results/ablation_size_vs_uncertainty.json      671 bytes
+  experiments/results/ablation_threshold.json               2276 bytes
+  experiments/results/ablation_uncertainty_action.json       689 bytes
+  experiments/results/auroc_bootstrap_ci.json                309 bytes
+  experiments/results/ensemble_cosine_similarity.json       1200 bytes
+  experiments/results/ensemble_envA.json                    8172 bytes
+  experiments/results/ensemble_envB.json                   17328 bytes
+  experiments/results/ensemble_envC.json                    8189 bytes
+  experiments/results/ensemble_envD.json                    8139 bytes
+  experiments/results/ensemble_size_auroc.json              1096 bytes
+  experiments/results/gru_envA.json                          554 bytes
+  experiments/results/gru_envB.json                          559 bytes
+  experiments/results/gru_envC.json                          553 bytes
+  experiments/results/gru_envD.json                          541 bytes
+  experiments/results/inference_latency_cpu.json            2543 bytes
+  experiments/results/large_mlp_envA.json                    547 bytes
+  experiments/results/large_mlp_envB.json                    561 bytes
+  experiments/results/large_mlp_envC.json                    549 bytes
+  experiments/results/large_mlp_envD.json                    548 bytes
+  experiments/results/lstm_envA.json                         570 bytes
+  experiments/results/lstm_envB.json                         554 bytes
+  experiments/results/lstm_envC.json                         542 bytes
+  experiments/results/lstm_envD.json                         571 bytes
+  experiments/results/mc_dropout_T10_envA.json              8474 bytes
+  experiments/results/mc_dropout_T10_envB.json              8472 bytes
+  experiments/results/mc_dropout_T10_envC.json              8502 bytes
+  experiments/results/mc_dropout_T10_envD.json              8484 bytes
+  experiments/results/mc_dropout_T20_envA.json              8404 bytes
+  experiments/results/mc_dropout_T20_envB.json              8466 bytes
+  experiments/results/mc_dropout_T20_envC.json              8478 bytes
+  experiments/results/mc_dropout_T20_envD.json              8457 bytes
+  experiments/results/mc_dropout_T5_envA.json               8425 bytes
+  experiments/results/mc_dropout_T5_envB.json               8460 bytes
+  experiments/results/mc_dropout_T5_envC.json               8531 bytes
+  experiments/results/mc_dropout_T5_envD.json               8486 bytes
+  experiments/results/temperature_scaling_mc_dropout.json   1194 bytes
+  experiments/results/vanilla_envA.json                      557 bytes
+  experiments/results/vanilla_envB.json                      546 bytes
+  experiments/results/vanilla_envC.json                      545 bytes
+  experiments/results/vanilla_envD.json                      579 bytes
