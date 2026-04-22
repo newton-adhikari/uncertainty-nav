@@ -1,46 +1,46 @@
 {
   "A": {
-    "raw_ece": 0.1205848025988165,
-    "optimal_temperature": 9.999993088304656,
-    "calibrated_ece": 0.48958244850679183,
-    "ece_reduction_pct": -306.0067586921579,
+    "raw_ece": 0.275623888056252,
+    "optimal_temperature": 9.999994793574977,
+    "calibrated_ece": 0.49702426380916953,
+    "ece_reduction_pct": -80.32699100004425,
     "auroc": 1.0,
     "n_episodes": 500,
     "n_cal": 250,
     "n_test": 250,
-    "failure_rate": 0.01
+    "failure_rate": 0.008
   },
   "B": {
-    "raw_ece": 0.40614653282429003,
-    "optimal_temperature": 1.1665931080324812,
-    "calibrated_ece": 0.25096587227762834,
-    "ece_reduction_pct": 38.208047590005414,
-    "auroc": 0.9599578503688093,
+    "raw_ece": 0.5378393048876218,
+    "optimal_temperature": 1.7585632682245322,
+    "calibrated_ece": 0.2644114118405229,
+    "ece_reduction_pct": 50.83821330317797,
+    "auroc": 0.9416683390193323,
     "n_episodes": 500,
     "n_cal": 250,
     "n_test": 250,
-    "failure_rate": 0.608
+    "failure_rate": 0.622
   },
   "C": {
-    "raw_ece": 0.20050049612648738,
-    "optimal_temperature": 9.999994793574977,
-    "calibrated_ece": 0.41805949453835123,
-    "ece_reduction_pct": -108.50796013722328,
-    "auroc": 0.960282803077563,
+    "raw_ece": 0.18417550618952322,
+    "optimal_temperature": 9.999993111337599,
+    "calibrated_ece": 0.4062817414558575,
+    "ece_reduction_pct": -120.59488249093175,
+    "auroc": 0.9776917404129793,
     "n_episodes": 500,
     "n_cal": 250,
     "n_test": 250,
-    "failure_rate": 0.094
+    "failure_rate": 0.112
   },
   "D": {
-    "raw_ece": 0.3644590475208734,
-    "optimal_temperature": 0.23925619145182875,
-    "calibrated_ece": 0.06801756819016987,
-    "ece_reduction_pct": 81.33739067452446,
-    "auroc": 0.9551282051282052,
+    "raw_ece": 0.468925487554657,
+    "optimal_temperature": 0.16077881608051262,
+    "calibrated_ece": 0.08405259154597579,
+    "ece_reduction_pct": 82.07549093049057,
+    "auroc": 0.9364832458357637,
     "n_episodes": 500,
     "n_cal": 250,
     "n_test": 250,
-    "failure_rate": 0.522
+    "failure_rate": 0.546
   }
 }

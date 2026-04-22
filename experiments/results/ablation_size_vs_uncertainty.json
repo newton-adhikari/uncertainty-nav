@@ -13,17 +13,17 @@
     "n_episodes": 500
   },
   "large_mlp": {
-    "success_rate": 0.38,
-    "success_rate_std": 0.06663332499583073,
+    "success_rate": 0.326,
+    "success_rate_std": 0.045869379764718846,
     "success_rate_ci95": [
-      0.338,
-      0.424
+      0.284,
+      0.368
     ],
-    "collision_rate": 0.62,
-    "mean_spl": 0.37127895536078603,
+    "collision_rate": 0.674,
+    "mean_spl": 0.3179270379294413,
     "mean_uncertainty": 0.0,
     "cautious_ratio": 0.0,
     "n_episodes": 500
   },
-  "mann_whitney_p_value": 0.6474045021445488
+  "mann_whitney_p_value": 0.18393136465044002
 }

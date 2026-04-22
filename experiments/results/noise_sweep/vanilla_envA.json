@@ -1,0 +1,29 @@
+{
+  "policy": "vanilla",
+  "env": "A",
+  "n_episodes": 200,
+  "n_seeds": 5,
+  "mc_samples": null,
+  "success_rate": 0.975,
+  "success_rate_std": 0.01581138830084191,
+  "collision_rate": 0.025,
+  "collision_rate_std": 0.0158113883008419,
+  "timeout_rate": 0.0,
+  "timeout_rate_std": 0.0,
+  "mean_spl": 0.9738574264393861,
+  "mean_spl_std": 0.016043204950737276,
+  "mean_reward": 92.95135425719161,
+  "mean_path_length": 4.3110263401697,
+  "mean_steps": 169.12,
+  "mean_uncertainty": 0.0,
+  "std_uncertainty": 0.0,
+  "mean_cautious_ratio": 0.0,
+  "robustness_curve": {
+    "0.0": 0.98,
+    "0.05": 1.0,
+    "0.1": 0.96,
+    "0.15": 0.88,
+    "0.2": 0.98,
+    "0.3": 0.98
+  }
+}

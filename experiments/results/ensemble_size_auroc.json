@@ -22,7 +22,7 @@
     "collision_rate": 0.654,
     "timeout_rate": 0.0,
     "mean_uncertainty": 0.3009599809329235,
-    "auroc": 0.804405083876898,
+    "auroc": 0.8044050838768981,
     "ece": 0.5129441547175863,
     "n_episodes": 500
   },
@@ -31,7 +31,7 @@
     "collision_rate": 0.664,
     "timeout_rate": 0.0,
     "mean_uncertainty": 0.4858473690942199,
-    "auroc": 0.888088066551922,
+    "auroc": 0.8880880665519221,
     "ece": 0.5090749310324125,
     "n_episodes": 500
   },
@@ -40,7 +40,7 @@
     "collision_rate": 0.64,
     "timeout_rate": 0.01,
     "mean_uncertainty": 1.0189882885620212,
-    "auroc": 0.7921054945054945,
+    "auroc": 0.7921054945054946,
     "ece": 0.3943559229688035,
     "n_episodes": 500
   }
