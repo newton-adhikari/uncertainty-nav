@@ -300,11 +300,18 @@ def fig7_mc_t_ablation():
 # Fig 8: Robustness curve (SR vs noise, Env A layout)
 
 def fig8_robustness():
-    methods = ["ensemble", "vanilla", "large_mlp"]
+    methods = ["ensemble", "mc_dropout", "vanilla", "large_mlp"]
     fig, ax = plt.subplots(figsize=(8, 5))
 
     for m in methods:
-        d = _load(f"{RESULTS_DIR}/{m}_envA.json")
+        # Try on noise_sweep subdirectory first
+        d = _load(f"{RESULTS_DIR}/noise_sweep/{m}_envA.json")
+        if not d:
+            # For mc_dropout, also try T20 filename
+            if m == "mc_dropout":
+                d = _load(f"{RESULTS_DIR}/noise_sweep/mc_dropout_T20_envA.json")
+            if not d:
+                d = _load(f"{RESULTS_DIR}/{m}_envA.json")
         if not d or "robustness_curve" not in d:
             continue
         rc = d["robustness_curve"]
