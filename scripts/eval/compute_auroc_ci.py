@@ -41,3 +41,4 @@ for method, label in [("mc_dropout_T20", "MC-Dropout T=20"), ("ensemble", "Ensem
             fails.append(0.0 if np.random.random() < sr_q else 1.0)
     uncs, fails = np.array(uncs), np.array(fails)
     lo, hi, mean = bootstrap_auroc(uncs, fails)
+    print(f"{label}: AUROC={d['auroc_failure']:.3f}, bootstrap mean={mean:.3f}, 95% CI=[{lo:.3f}, {hi:.3f}]")
